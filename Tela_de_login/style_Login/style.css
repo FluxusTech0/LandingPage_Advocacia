@@ -1,0 +1,159 @@
+body {
+    background-color:#ccb497; 
+    text-align: center;
+    height: 100%;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: "Barlow", sans-serif;
+    }
+
+    .form {
+        background-color: #350000;
+        border-radius: 0.95rem;
+        color: rgba(243, 244, 246, 1);
+        padding: 9rem;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Barlow", sans-serif;
+        border: 4.5px solid black;
+        margin-top: -80px;
+    }
+    
+    .formcontainer{
+        display: flex;
+        justify-content: center;
+        padding-top: 16rem;
+        font-family: "Barlow", sans-serif;
+    }
+    
+    .inputtext {
+        width: 100%;
+        border-radius: 0.375rem;
+        border: 2.5px solid black;
+        outline: 0;
+        background-color: whitesmoke;
+        padding: 0.75rem 1rem;
+        color: rgba(243, 244, 246, 1);
+        font-family: "Barlow", sans-serif;
+        color: black;
+        margin-top: 10px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .logologin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: inline-flex;
+        padding: 1.5em;
+        border-radius: 0.5em;
+        width: 20em;
+        margin-top: -100px;
+    }
+
+
+.esqueci_senha {
+    margin-left: 250px;
+    margin-top: -20px;
+    color: #ccac73;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+}
+
+.esqueci_senha:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.primeiro_acesso {
+  margin-right: 280px;
+  margin-top: -50px;
+  color: #ccac73;
+  font-family: "Barlow", sans-serif;
+  font-weight: bold;
+}
+
+.primeiro_acesso:hover {
+text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s;
+    padding: 10px 50px;
+    border-radius: 100px;
+    background: #ddb771;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+  }
+  
+  button:hover {
+    background: #ffc53a;
+  }
+  
+  button > svg {
+    width: 50px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+
+    
+  .backgroundimage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/justice.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #ccb497; 
+    background-blend-mode: overlay; 
+    filter: blur(10px);
+    z-index: -1; 
+}
+
+.input-container-usuario {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.icone_usuario {
+  position: absolute;
+  left: -225px; /* Espaçamento à esquerda */
+  top: 47px; /* Centraliza verticalmente */
+  transform: translateY(-50%); /* Ajusta a posição vertical */
+  width: 55px; /* Largura da imagem */
+  height: 36px; /* Altura da imagem */
+}
+
+.input-container-senha {
+  position: absolute;
+  margin-bottom: 15px;
+}
+
+.icone_senha {
+  position: absolute;
+  left: -238px; /* Espaçamento à esquerda */
+  top: 221px; /* Centraliza verticalmente */
+  transform: translateY(-50%); /* Ajusta a posição vertical */
+  width: 80px; /* Largura da imagem */
+  height: 90px; /* Altura da imagem */
+}
