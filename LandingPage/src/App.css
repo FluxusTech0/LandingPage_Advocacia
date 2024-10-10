@@ -10,19 +10,11 @@
 }
 
 .navbar .nav-link{
-    color: #CCB497;
+    color: black;
 }
 
 .navbar .nav-link:hover{
     color: #CCAC73;
-}
-
-.navbar .nav-link.active{
-    color: red;
-}
-
-.navbar .nav-link:active{
-    color: red;
 }
 
 .backgroundimage {
@@ -34,7 +26,7 @@
     
     background-size: cover;
     background-position: center;
-    background-color: #350000; 
+    background-color: #ccb497; 
     
     z-index: -1; 
 }
