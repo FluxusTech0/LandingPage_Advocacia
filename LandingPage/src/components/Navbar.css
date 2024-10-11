@@ -1,0 +1,14 @@
+/* Navbar.css */
+.nav-link {
+    color: rgb(179, 24, 24); /* Cor padrão dos links */
+    transition: color 0.3s ease; /* Transição suave ao mudar a cor */
+  }
+  
+  .nav-link:hover {
+    color: gray; /* Cor ao passar o mouse */
+  }
+  
+  .nav-link.active {
+    color: yellow; /* Cor do link quando ativo/clicado */
+  }
+  
