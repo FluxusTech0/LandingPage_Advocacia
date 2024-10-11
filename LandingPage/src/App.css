@@ -104,3 +104,12 @@ footer p{
     word-wrap: break-word; /* Quebra palavras longas se não couber */
     overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
 }
+
+.imageAdvogado{
+    width: 600px;
+    height: 750px;
+    left: 700px;
+    margin-top: 10px;
+    position: absolute;
+
+}
