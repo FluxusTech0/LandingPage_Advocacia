@@ -34,6 +34,21 @@
    
 }
 
+.navbar::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: -60px;
+    
+    
+    }
+  
+
 footer {
     
     width: 100%;
@@ -111,5 +126,93 @@ footer p{
     left: 700px;
     margin-top: 10px;
     position: absolute;
+    z-index: 10;
 
 }
+
+.imageAdvogada{
+    width: 600px;
+    height: 750px;
+    left: 2100px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 10;
+
+}
+
+.nomep {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute; 
+    bottom: 110px;  
+    z-index: 10;
+    margin-left: 1000px;
+    color: black;
+    font-size: 28px;
+    font-family: 'Mulish', sans-serif
+}
+
+.nomeoab {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute; 
+    bottom: 80px;  
+    z-index: 10;
+    margin-left: 1030px;
+    color: red;
+    font-size: 23px;
+    font-family: 'Mulish', sans-serif
+}
+
+.nomep2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute; 
+    bottom: 110px;  
+    z-index: 10;
+    margin-left: 1510px;
+    color: black;
+    font-size: 28px;
+    font-family: 'Mulish', sans-serif
+}
+
+.nomeoab2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute; 
+    bottom: 80px;  
+    z-index: 10;
+    margin-left: 1510px;
+    color: red;
+    font-size: 23px;
+    font-family: 'Mulish', sans-serif
+
+}
+
+.quadrado {
+    width: 860px;
+    height: 750px;
+    border: 15px solid black; 
+    background-color: transparent; 
+    z-index: -1;
+    left: 700px;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+    
+
+

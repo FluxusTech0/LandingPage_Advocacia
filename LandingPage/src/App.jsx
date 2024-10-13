@@ -4,14 +4,18 @@ import Footer from './components/Footer'
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TextTelaInicial from './components/TextTelaInicial';
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
+
+
 
 function App() {
   
 
+
   return (
     <>
-     
-     <Background/>
+   
+    <Background/>
     
     <Header/>
     <TextTelaInicial/>
