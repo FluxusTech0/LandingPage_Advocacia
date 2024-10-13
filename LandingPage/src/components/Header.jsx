@@ -1,6 +1,7 @@
 import { Navbar } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import LogoDourada from "../assets/img/logoouro.png";
+import { Link } from "react-router-dom"
 
 function Header() {
   return (
