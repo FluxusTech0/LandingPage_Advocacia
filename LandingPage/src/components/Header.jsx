@@ -1,7 +1,7 @@
 import { Navbar } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import LogoDourada from "../assets/img/logoouro.png";
-import { Link } from "react-router-dom"
+import { Link } from 'react-scroll'
 
 function Header() {
   return (
@@ -10,13 +10,16 @@ function Header() {
         <img className="imagelogob" src={LogoDourada} alt="LogoDourada" />
       </div>
       
+      
+      
         <Navbar>
+        
           <Nav variant="underline" defaultActiveKey="/home">
             <Nav.Item>
               <Nav.Link href="/home">INICIO</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="link-1">SOBRE NÓS</Nav.Link>
+            <Nav.Link eventKey="link-1"><Link to="section1" smooth={true} duration={500}>SOBRE NÓS</Link></Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="link-2">ASSISTÊNCIA JURÍDICA</Nav.Link>
@@ -24,8 +27,12 @@ function Header() {
             <Nav.Item>
               <Nav.Link eventKey="link-3">CONTATO</Nav.Link>
             </Nav.Item>
+  
           </Nav>
         </Navbar>
+
+
+      
     </>
   );
 }

@@ -21,11 +21,6 @@ const TextTelaInicial = () => {
 
   return (
     <>
-  
-    <div class="nomep"><p>Eduarda D'Emery</p></div>
-    <div class="nomeoab">OAB/PE 99999</div>
-    <div class="nomep2"><p>Reinan Anao</p></div>
-    <div class="nomeoab2">OAB/PE 99999</div>
     <div className="slide-container">
       <animated.p style={props} className="slide-text">
         <p className="textoRapido">Texto Rápido</p>
@@ -46,7 +41,10 @@ const TextTelaInicial = () => {
       <animated.p style={props2} className="slide-text">
         <div>
           <img className="imageAdvogado" src={LogoDourada} alt="LogoDourada" />
+          <div class="nomep"><p>Eduarda D'Emery</p></div>
+          <div class="nomeoab">OAB/PE 99999</div>
         </div>
+        
       </animated.p>
       </div>
       <div>
@@ -54,11 +52,14 @@ const TextTelaInicial = () => {
         <div>
           <img className="imageAdvogada" src={ImagemMulher} alt="LogoDourada" />
         </div>
+        <div class="nomep2"><p>Reinan Anao</p></div>
+        <div class="nomeoab2">OAB/PE 99999</div>
       </animated.p>
       </div>
       <div className="quadrado"></div>
       
-    </>
+</>
+    
   );
 };
 
