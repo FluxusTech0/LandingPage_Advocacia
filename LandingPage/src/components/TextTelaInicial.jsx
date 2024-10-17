@@ -21,45 +21,48 @@ const TextTelaInicial = () => {
 
   return (
     <>
-    <div className="slide-container">
-      <animated.p style={props} className="slide-text">
-        <p className="textoRapido">Texto Rápido</p>
-        <p className="textoTituloGrande">Texto Titulo Grande</p>
-        <p className="textoTextoPequeno">
-          Um dos principais motivos para a preservação ambiental é a
-          biodiversidade. A diversidade biológica, que abrange todas as formas
-          de vida na Terra, desempenha um papel vital na manutenção dos
-          ecossistemas. Cada espécie, por menor que seja, contribui para o
-          equilíbrio ecológico. A extinção de uma única espécie pode desencadear
-          uma série de reações em cadeia, afetando outras espécies e,
-          eventualmente, os seres humanos. Portanto, proteger a biodiversidade é
-          fundamental não apenas para a sobrevivência das espécies, mas também
-          para a nossa própria sobrevivência.
-        </p>
-      </animated.p>
+      <div className="slide-container">
+        <animated.p style={props} className="slide-text">
+          <p className="textoRapido">Texto Rápido</p>
+          <p className="textoTituloGrande">Texto Titulo Grande</p>
+          <p className="textoTextoPequeno">
+            Um dos principais motivos para a preservação ambiental é a
+            biodiversidade. A diversidade biológica, que abrange todas as formas
+            de vida na Terra, desempenha um papel vital na manutenção dos
+            ecossistemas. Cada espécie, por menor que seja, contribui para o
+            equilíbrio ecológico. A extinção de uma única espécie pode desencadear
+            uma série de reações em cadeia, afetando outras espécies e,
+            eventualmente, os seres humanos. Portanto, proteger a biodiversidade é
+            fundamental não apenas para a sobrevivência das espécies, mas também
+            para a nossa própria sobrevivência.
+          </p>
+        </animated.p>
 
-      <animated.p style={props2} className="slide-text">
-        <div>
-          <img className="imageAdvogado" src={LogoDourada} alt="LogoDourada" />
-          <div class="nomep"><p>Eduarda D'Emery</p></div>
-          <div class="nomeoab">OAB/PE 99999</div>
-        </div>
-        
-      </animated.p>
+        <animated.p style={props2} className="slide-text">
+          <div>
+            <img className="imageAdvogado" src={LogoDourada} alt="LogoDourada" />
+            <div class="nomep"><p>Eduarda D'Emery</p></div>
+            <div class="nomeoab">OAB/PE 99999</div>
+          </div>
+
+        </animated.p>
       </div>
       <div>
-      <animated.p style={props2} className="slide-text">
-        <div>
-          <img className="imageAdvogada" src={ImagemMulher} alt="LogoDourada" />
-        </div>
-        <div class="nomep2"><p>Reinan Anao</p></div>
-        <div class="nomeoab2">OAB/PE 99999</div>
-      </animated.p>
+        <animated.p style={props2} className="slide-text">
+          <div>
+            <img className="imageAdvogada" src={ImagemMulher} alt="LogoDourada" />
+          </div>
+          <div class="nomep2"><p>Eduarda Torres</p></div>
+          <div class="nomeoab2">OAB/PE 99999</div>
+        </animated.p>
       </div>
-      <div className="quadrado"></div>
-      
-</>
-    
+      <div>
+        <animated.p style={props2} className="slide-text">
+          <div className="quadrado"></div>
+        </animated.p>
+      </div>
+    </>
+
   );
 };
 
