@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import Sobre from './components/Sobre';
 
 
-
 function App() {
   
 
@@ -21,6 +20,7 @@ function App() {
     <Header/>
     <TextTelaInicial/>
     <Sobre/>
+
       <Footer/>
       
     </>

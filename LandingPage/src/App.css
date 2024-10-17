@@ -1,13 +1,12 @@
 .navbar {
-  z-index: -1.5;
-  font-size: 25px;
-  font-family: 'Mulish', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 620px;
-  margin-top: -100px;
-  position: sticky;
+    width: 100%;
+    position: absolute; /* Não está fixa no topo, apenas acompanha o site */
+    background-color: transparent;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    padding: 20px;
+    top: -100px;
+    left: 620px;
+    font-size: 25px;
   }
 
 .navbar .nav-link{
@@ -18,6 +17,14 @@
 .navbar .nav-link:hover{
     color: #CCAC73;
 }
+
+.navbar.scrolled {
+    position: fixed; /* Quando rolar, a navbar segue fixada */
+    top: 0;
+    background-color: #350000; /* Altera a cor quando o scroll acontece */
+    padding: 10px;
+    z-index: 10000; 
+  }
 
 .backgroundimage {
     position: fixed;
@@ -36,13 +43,15 @@
 .navbar::after {
     content: "";
     display: block;
-    height: 2px;
-    width: 70%;
+    height: 1px;
+    width: 45%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-left: -60px;
+    margin-left: -80px;
+    top: 64px;
+    z-index: -1; 
     
     }
   
@@ -78,14 +87,14 @@ footer p{
     color: #CCAC73;
     margin-left: 150px;
     position: absolute;
-    top: 250px; /* Altere a posição como necessário */
+    top: 150px; /* Altere a posição como necessário */
 
 }
 
 
 .textoTituloGrande{
     color: #CCAC73;
-    margin-top: 249px;
+    margin-top: 159px;
     position: absolute;
     margin-left: 150px;
     font-size: 450%;
@@ -100,7 +109,7 @@ footer p{
 .textoTextoPequeno{
     color: #CCAC73;
     margin-left: 150px;
-    margin-top: 470px;
+    margin-top: 370px;
     z-index: 9;
     width: 500px; /* Defina a largura do contêiner */
     word-wrap: break-word; /* Quebra palavras longas se não couber */
@@ -122,7 +131,7 @@ footer p{
     width: 600px;
     height: 750px;
     left: 700px;
-    margin-top: 10px;
+    margin-top: -55px;
     position: absolute;
     z-index: 10;
 
@@ -132,7 +141,7 @@ footer p{
     width: 600px;
     height: 750px;
     left: 2100px;
-    margin-top: 10px;
+    margin-top: -55px;
     position: absolute;
     z-index: 10;
 
@@ -140,57 +149,61 @@ footer p{
 
 .nomep {
     width: 100%;
-    height: 60px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: -600px;  
+    bottom: -700px;  
     z-index: 10;
     margin-left: 880px;
     color: black;
     font-size: 28px;
-    font-family: 'Mulish', sans-serif
+    font-family: 'Mulish', sans-serif;
+    font-weight:bolder;
 }
 
 .nomeoab {
     width: 100%;
-    height: 60px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: -630px;  
+    bottom: -730px;  
     z-index: 10;
     margin-left: 920px;
     color: red;
     font-size: 23px;
-    font-family: 'Mulish', sans-serif
+    font-family: 'Mulish', sans-serif;
+   
+    
 }
 
 .nomep2 {
     width: 100%;
-    height: 60px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: -600px;  
+    bottom: -700px;  
     z-index: 10;
     margin-left: 2350px;
-    color: black;
+    color: #CCAC73;
     font-size: 28px;
-    font-family: 'Mulish', sans-serif
+    font-family: 'Mulish', sans-serif;
+    font-weight:bolder;
 }
 
 .nomeoab2 {
     width: 100%;
-    height: 60px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: -630px;  
+    bottom: -730px;  
     z-index: 10;
     margin-left: 2350px;
     color: red;
@@ -205,10 +218,10 @@ footer p{
     border: 15px solid black; 
     background-color: transparent; 
     z-index: -1;
-    left: 700px;
-    margin-top: 40px;
+    left: 1545px;
+    margin-top: -55px;
     position: absolute;
-    margin-left: 200px;
+    margin-left: 190px;
 }
 
 ::-webkit-scrollbar {
@@ -239,4 +252,5 @@ body {
 .testando {
     margin-top: 900px;
     position: absolute;
+    height: 100vh; /* A página vai ocupar 100% da altura da tela */
 }
