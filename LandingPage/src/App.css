@@ -7,9 +7,8 @@
   align-items: center;
   margin-left: 620px;
   margin-top: -100px;
-   
-  
-}
+  position: sticky;
+  }
 
 .navbar .nav-link{
     color: #CCAC73;
@@ -44,7 +43,6 @@
     bottom: 0;
     left: 0;
     margin-left: -60px;
-    
     
     }
   
@@ -147,9 +145,9 @@ footer p{
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: 110px;  
+    bottom: -600px;  
     z-index: 10;
-    margin-left: 1000px;
+    margin-left: 880px;
     color: black;
     font-size: 28px;
     font-family: 'Mulish', sans-serif
@@ -162,9 +160,9 @@ footer p{
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: 80px;  
+    bottom: -630px;  
     z-index: 10;
-    margin-left: 1030px;
+    margin-left: 920px;
     color: red;
     font-size: 23px;
     font-family: 'Mulish', sans-serif
@@ -177,9 +175,9 @@ footer p{
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: 110px;  
+    bottom: -600px;  
     z-index: 10;
-    margin-left: 1510px;
+    margin-left: 2350px;
     color: black;
     font-size: 28px;
     font-family: 'Mulish', sans-serif
@@ -192,9 +190,9 @@ footer p{
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: 80px;  
+    bottom: -630px;  
     z-index: 10;
-    margin-left: 1510px;
+    margin-left: 2350px;
     color: red;
     font-size: 23px;
     font-family: 'Mulish', sans-serif
@@ -213,6 +211,32 @@ footer p{
     margin-left: 200px;
 }
 
-    
+::-webkit-scrollbar {
+    width: 8px;
+}
 
+::-webkit-scrollbar-track {
+    background: white;
+}
 
+::-webkit-scrollbar-thumb {
+   background: black;
+   border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: greenyellow;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+}
+
+.testando {
+    margin-top: 900px;
+    position: absolute;
+}
