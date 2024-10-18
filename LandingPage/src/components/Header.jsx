@@ -4,9 +4,7 @@ import LogoDourada from "../assets/img/logoouro.png";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 
-
 function Header() {
-
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -20,14 +18,13 @@ function Header() {
     };
 
     // Adiciona o event listener no scroll
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Remove o event listener quando o componente desmonta
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
 
   return (
     <>
@@ -35,8 +32,8 @@ function Header() {
         <img className="imagelogob" src={LogoDourada} alt="LogoDourada" />
       </div>
 
-      <Navbar className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
-        <Nav variant="underline" defaultActiveKey="/home" >
+      <Navbar className={`navbar ${isScrolled ? "scrolled" : ""}`}>
+        <Nav variant="underline" defaultActiveKey="/home">
           <Nav.Item>
             <Nav.Link href="/home">INICIO</Nav.Link>
           </Nav.Item>
@@ -48,7 +45,11 @@ function Header() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2">ASSISTÊNCIA JURÍDICA</Nav.Link>
+            <Nav.Link eventKey="link-2">
+              <Link to="section2" smooth={true} duration={500}>
+                ASSISTÊNCIA JURÍDICA
+              </Link>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-3">CONTATO</Nav.Link>

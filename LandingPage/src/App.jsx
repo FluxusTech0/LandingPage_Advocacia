@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TextTelaInicial from './components/TextTelaInicial';
 import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
 import Sobre from './components/Sobre';
+import AssistenciaJuridica from './components/AssistenciaJuridica';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     <Header/>
     <TextTelaInicial/>
     <Sobre/>
-      
+      <AssistenciaJuridica/>
     </>
   )
 }
