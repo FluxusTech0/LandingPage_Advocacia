@@ -250,7 +250,60 @@ body {
 }
 
 .testando {
-    margin-top: 900px;
+    margin-top: 650px;
     position: absolute;
-    height: 100vh; /* A página vai ocupar 100% da altura da tela */
+    height: 80vh; /* A página vai ocupar 100% da altura da tela */
+}
+
+.backgroundSobre {
+    background-image: url(../src/assets/img/SOBRE_NOSS.jpg);
+    z-index: 20000;
+    height: 100vh;
+    
+}
+
+.Sobre {
+    margin-top: 100px;
+    position: absolute;
+    color: #CCAC73;
+    font-size: 450%;
+    margin-left: 280px;
+    word-wrap: break-word; /* Quebra palavras longas se não couber */
+    overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+    width: 500px;
+}
+
+.Sobrepequeno {
+    margin-top: 320px;
+    color: #CCAC73;
+    width: 500px; /* Defina a largura do contêiner */
+    word-wrap: break-word; /* Quebra palavras longas se não couber */
+    overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+    position: absolute;
+    margin-left: 280px;
+}
+
+.ImagemSobre {
+        width: 600px;
+        height: 850px;
+        left: 1100px;
+        margin-top: 80px;
+        position: absolute;
+        z-index: 1;
+    
+}
+
+.SobreNos {
+    margin-top: 10px;
+    color: #CCAC73;
+    margin-left: 880px;
+    font-size: 20px;
+    margin-top: 170px;
+}
+
+.Infos {
+    color: #CCAC73;
+    margin-left: 700px;
+    font-size: 30px;
+    
 }

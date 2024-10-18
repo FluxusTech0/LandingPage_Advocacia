@@ -20,8 +20,6 @@ function App() {
     <Header/>
     <TextTelaInicial/>
     <Sobre/>
-
-      <Footer/>
       
     </>
   )
