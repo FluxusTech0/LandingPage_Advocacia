@@ -315,14 +315,13 @@ body {
 
 .SobrepequenoAssistencia {
     color: #CCAC73;
-    margin-top: 3000px;
+     
 }
 
 .paginaAssistencia {
-    margin-top: 650px;
+    margin-top: 1650px;
     position: absolute;
     height: 100vh; /* A página vai ocupar 100% da altura da tela */
- 
 }
 
 
