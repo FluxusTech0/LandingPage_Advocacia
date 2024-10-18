@@ -255,15 +255,43 @@ body {
     height: 80vh; /* A página vai ocupar 100% da altura da tela */
 }
 
-.backgroundSobre {
-    background-image: url(../src/assets/img/SOBRE_NOSS.jpg);
+/*.backgroundSobre {
+    /*background-image: url(../src/assets/img/Sobre_Nos_Oficial_v2.png);
     height: 100vh;
+    width: 1000px;
     margin-top: -220px;
+    background-image: url(../src/assets/img/Sobre_Nos_Oficial_v2.png); /* Usa a imagem de texto 
+    background-repeat: no-repeat;              /* Evita repetição 
+    background-position: center;               /* Centraliza a imagem 
+    background-size: 125%;
+    margin-left: 500px;
+}*/
+
+
+.backgroundSobre {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    left: 250px;
+  }
+
+
+.backgroundSobre h2 {
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 220px;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #CCAC73;
+    opacity: .1;
+    
     
 }
 
+
 .Sobre {
-    margin-top: -550px;
+    margin-top: -150px;
     position: absolute;
     color: #CCAC73;
     font-size: 450%;
@@ -274,7 +302,7 @@ body {
 }
 
 .Sobrepequeno {
-    margin-top: -320px;
+    margin-top: 90px;
     color: #CCAC73;
     width: 500px; /* Defina a largura do contêiner */
     word-wrap: break-word; /* Quebra palavras longas se não couber */
@@ -285,10 +313,10 @@ body {
 }
 
 .ImagemSobre {
-        width: 600px;
-        height: 850px;
-        left: 1100px;
-        margin-top: -650px;
+        width: 500px;
+        height: 150px;
+        left: 1050px;
+        margin-top: -150px;
         position: absolute;
         z-index: 1;
     
@@ -303,7 +331,7 @@ body {
 }
 
 .Infos {
-    color: #CCAC73;
+    color: whitesmoke;
     margin-left: 700px;
     font-size: 30px;
     font-family: 'Mulish', sans-serif;
@@ -313,15 +341,33 @@ body {
 }
 
 
-.SobrepequenoAssistencia {
+.textopequenoAssistencia {
     color: #CCAC73;
+     
+}
+
+.textoGrandeAssistencia {
+    color: white;
      
 }
 
 .paginaAssistencia {
     margin-top: 1650px;
     position: absolute;
+    height: 80vh; /* A página vai ocupar 100% da altura da tela */
+}
+
+
+.SobrepequenoContato {
+    color: #CCAC73;
+     
+}
+
+.paginaContato {
+    margin-top: 2650px;
+    position: absolute;
     height: 100vh; /* A página vai ocupar 100% da altura da tela */
 }
+
 
 
