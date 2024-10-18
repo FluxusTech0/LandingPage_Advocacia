@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Sobre from "./components/Sobre";
 import AssistenciaJuridica from "./components/AssistenciaJuridica";
 import Contato from "./components/Contato";
+import PaginaFinal from "./components/PaginaFinal";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Sobre />
       <AssistenciaJuridica />
       <Contato />
+      <PaginaFinal/>
     </>
   );
 }
