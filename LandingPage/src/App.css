@@ -359,13 +359,33 @@ body {
 
 .textopequenoAssistencia {
     color: #CCAC73;
-     
+    margin-left: 280px;
+    font-size: 20px;
+    margin-top: 250px;
+    position: absolute;
 }
 
 .textoGrandeAssistencia {
     color: white;
-     
+    margin-left: 280px;
+    font-size: 30px;
+    font-weight:bolder;
+    margin-top: 290px; 
+
 }
+
+.textoGrandeAssistencia::after {
+    content: '';
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 12%;
+    background-color: #CCAC73;
+
+}
+
 
 .paginaAssistencia {
     margin-top: 1650px;
@@ -381,6 +401,17 @@ body {
 
 .paginaContato {
     margin-top: 2650px;
+    position: absolute;
+    height: 100vh; /* A página vai ocupar 100% da altura da tela */
+}
+
+.textopequenoFinal {
+    color: #CCAC73;
+     
+}
+
+.paginaFinal {
+    margin-top: 3650px;
     position: absolute;
     height: 100vh; /* A página vai ocupar 100% da altura da tela */
 }
