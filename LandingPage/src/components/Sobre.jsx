@@ -1,12 +1,15 @@
 import ImagemS from '../assets/img/Advogadomulher.png'
 
+
 function Sobre() {
   return (
     <>
       <div className="testando" id="section1">
       <div className='SobreNos'><p>Sobre Nós</p></div>
       <div className='Infos'><p>Por que Os Clientes Nos Escolhem? </p></div>
-        <div className="backgroundSobre"></div>
+        <div className="backgroundSobre">
+          <h2>Sobre Nós</h2>
+          </div>
         <div className='ImagemSobre'><img src={ImagemS} alt="" /></div>
         <p className="Sobre">Texto Titulo Grande</p>
         <p className="Sobrepequeno">

@@ -52,7 +52,11 @@ function Header() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-3">CONTATO</Nav.Link>
+            <Nav.Link eventKey="link-3">
+              <Link to="section3" smooth={true} duration={500}>
+                CONTATO
+              </Link>
+            </Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar>
