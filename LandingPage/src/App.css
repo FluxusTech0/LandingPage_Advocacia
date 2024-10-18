@@ -341,6 +341,22 @@ body {
 }
 
 
+.Infos::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 5%;
+    background-color: #CCAC73;
+    position: absolute;
+    bottom: 0;
+    left: 970px;
+    margin-left: -80px;
+    top: 270px;
+    z-index: -1; 
+    
+    }
+
+
 .textopequenoAssistencia {
     color: #CCAC73;
      
