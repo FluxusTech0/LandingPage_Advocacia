@@ -1,15 +1,8 @@
-import ImagemS from '../assets/img/Advogadomulher.png'
-
-function Sobre() {
+function AssistenciaJuridica() {
   return (
     <>
-      <div className="testando" id="section1">
-      <div className='SobreNos'><p>Sobre Nós</p></div>
-      <div className='Infos'><p>Por que Os Clientes Nos Escolhem? </p></div>
-        <div className="backgroundSobre"></div>
-        <div className='ImagemSobre'><img src={ImagemS} alt="" /></div>
-        <p className="Sobre">Texto Titulo Grande</p>
-        <p className="Sobrepequeno">
+      <div className="paginaAssistencia" id="section2">
+        <p className="SobrepequenoAssistencia">
           JoJo's Bizarre Adventure é uma série de mangá criada por Hirohiko
           Araki em 1987. A história é dividida em várias partes, cada uma com um
           protagonista da família Joestar, cujos membros têm o apelido "JoJo".
@@ -23,4 +16,4 @@ function Sobre() {
   );
 }
 
-export default Sobre;
+export default AssistenciaJuridica;

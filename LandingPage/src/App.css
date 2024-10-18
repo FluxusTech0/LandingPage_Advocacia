@@ -257,13 +257,13 @@ body {
 
 .backgroundSobre {
     background-image: url(../src/assets/img/SOBRE_NOSS.jpg);
-    z-index: 20000;
     height: 100vh;
+    margin-top: -220px;
     
 }
 
 .Sobre {
-    margin-top: 100px;
+    margin-top: -550px;
     position: absolute;
     color: #CCAC73;
     font-size: 450%;
@@ -274,20 +274,21 @@ body {
 }
 
 .Sobrepequeno {
-    margin-top: 320px;
+    margin-top: -320px;
     color: #CCAC73;
     width: 500px; /* Defina a largura do contêiner */
     word-wrap: break-word; /* Quebra palavras longas se não couber */
     overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
     position: absolute;
     margin-left: 280px;
+    
 }
 
 .ImagemSobre {
         width: 600px;
         height: 850px;
         left: 1100px;
-        margin-top: 80px;
+        margin-top: -650px;
         position: absolute;
         z-index: 1;
     
@@ -305,5 +306,22 @@ body {
     color: #CCAC73;
     margin-left: 700px;
     font-size: 30px;
-    
+    font-family: 'Mulish', sans-serif;
+    font-weight:bolder;
+
+
 }
+
+
+.SobrepequenoAssistencia {
+    color: #CCAC73;
+     
+}
+
+.paginaAssistencia {
+    margin-top: 1650px;
+    position: absolute;
+    height: 100vh; /* A página vai ocupar 100% da altura da tela */
+}
+
+
