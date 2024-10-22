@@ -378,7 +378,7 @@ body {
     content: '';
     position: absolute;
     top: 250px;
-    left: 40%;
+    left: 15%;
     transform: translateX(-50%);
     width: 2px;
     height: 12%;
@@ -388,7 +388,7 @@ body {
 
 
 .paginaAssistencia {
-    margin-top: 1650px;
+    margin-top: 1370px;
     position: absolute;
     height: 80vh; /* A página vai ocupar 100% da altura da tela */
 }
@@ -415,6 +415,46 @@ body {
     position: absolute;
     height: 100vh; /* A página vai ocupar 100% da altura da tela */
 }
+
+.Imagemcarrossel {
+    width: 350px;
+    height: 470px;
+}
+
+.slider-container {
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.text-container {
+    position: absolute;
+    bottom: 10px;
+    left: 35px;
+    width: 90%;
+  }
+  
+  .fixed-text {
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold
+  }
+  
+  .hover-text {
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: none; /* Ocultar por padrão */
+    font-weight: bold
+  }
+  
+  .image-container:hover .hover-text {
+    display: block; /* Exibir o texto adicional ao passar o mouse */
+  }
 
 
 
