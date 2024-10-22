@@ -9,6 +9,9 @@ import Sobre from "./components/Sobre";
 import AssistenciaJuridica from "./components/AssistenciaJuridica";
 import Contato from "./components/Contato";
 import PaginaFinal from "./components/PaginaFinal";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 function App() {
   return (
