@@ -31,7 +31,7 @@ function AssistenciaJuridica() {
         <div className="slider-container">
           <div
             style={{
-              width: 1600,
+              width: 1700,
               display: display ? "block" : "none"
             }}
           >
@@ -40,8 +40,8 @@ function AssistenciaJuridica() {
                 <div className="image-container">
                   <img className="Imagemcarrossel" src={Imagem1} alt="" />
                   <div className="text-container">
-                    <p className="fixed-text">Texto Fixo KOROMARU</p>
-                    <p className="hover-text">Texto Adicional KOROMARU</p>
+                    <p className="fixed-text">Administrativo</p>
+                    <p className="hover-text">Texto Adicional</p>
                   </div>
                 </div>
               </div>
@@ -49,8 +49,8 @@ function AssistenciaJuridica() {
                 <div className="image-container">
                   <img className="Imagemcarrossel" src={Imagem2} alt="" />
                   <div className="text-container">
-                    <p className="fixed-text">Texto Fixo Imagem 2</p>
-                    <p className="hover-text">Texto Adicional Imagem 2</p>
+                    <p className="fixed-text">Consumidor</p>
+                    <p className="hover-text">Texto Adicional</p>
                   </div>
                 </div>
               </div>
@@ -58,8 +58,8 @@ function AssistenciaJuridica() {
                 <div className="image-container">
                   <img className="Imagemcarrossel" src={Imagem3} alt="" />
                   <div className="text-container">
-                    <p className="fixed-text">Texto Fixo Imagem 3</p>
-                    <p className="hover-text">Texto Adicional Imagem 3</p>
+                    <p className="fixed-text">Contratos</p>
+                    <p className="hover-text">Texto Adicional</p>
                   </div>
                 </div>
               </div>
@@ -67,8 +67,8 @@ function AssistenciaJuridica() {
                 <div className="image-container">
                   <img className="Imagemcarrossel" src={Imagem4} alt="" />
                   <div className="text-container">
-                    <p className="fixed-text">Texto Fixo Imagem 4</p>
-                    <p className="hover-text">Texto Adicional Imagem 4</p>
+                    <p className="fixed-text">Tributario</p>
+                    <p className="hover-text">Texto Adicional</p>
                   </div>
                 </div>
               </div>
@@ -76,8 +76,8 @@ function AssistenciaJuridica() {
                 <div className="image-container">
                   <img className="Imagemcarrossel" src={Imagem5} alt="" />
                   <div className="text-container">
-                    <p className="fixed-text">Texto Fixo Imagem 5</p>
-                    <p className="hover-text">Texto Adicional Imagem 5</p>
+                    <p className="fixed-text">Direito Civil</p>
+                    <p className="hover-text">Texto Adicional</p>
                   </div>
                 </div>
               </div>

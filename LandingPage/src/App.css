@@ -393,14 +393,8 @@ body {
     height: 80vh; /* A página vai ocupar 100% da altura da tela */
 }
 
-
-.SobrepequenoContato {
-    color: #CCAC73;
-     
-}
-
 .paginaContato {
-    margin-top: 2650px;
+    margin-top: 2400px;
     position: absolute;
     height: 100vh; /* A página vai ocupar 100% da altura da tela */
 }
@@ -417,13 +411,13 @@ body {
 }
 
 .Imagemcarrossel {
-    width: 350px;
+    width: 400px;
     height: 470px;
 }
 
 .slider-container {
     margin-top: 100px;
-    margin-left: 160px;
+    margin-left: 120px;
 }
 
 .text-container {
@@ -456,5 +450,196 @@ body {
     display: block; /* Exibir o texto adicional ao passar o mouse */
   }
 
+ .panfleto {
+    background-color: #690101;
+    width: 450px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 500px;
 
+ }
 
+ .panfleto2 {
+    background-color: #CCAC73;
+    width: 450px;
+    height: 550px;
+    margin-top: -600px;
+    margin-left: 950px;
+
+ }
+
+ .Letraprincipal {
+    color: white;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    width: 300px;
+    
+ }
+
+ .Letraprincipal:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 540px;
+    top: 300px;
+    
+ }
+
+ .Letramenor {
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    color: white;
+    font-size: 15px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
+ } 
+
+ .homeicon {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+ }
+
+ .endereco {
+    color: white;
+    margin-top: -70px;
+    margin-left: 100px;
+    font-size: 20px;
+ }
+
+ .enderecoreal {
+    color: white;
+    margin-top: -10px;
+    margin-left: 100px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    width: 200px;
+    font-size: 15px;
+ }
+
+ .emailicon {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+
+ .email {
+    color: white;
+    margin-top: -60px;
+    margin-left: 100px;
+    font-size: 20px;
+ }
+
+ .emailreal {
+    color: white;
+    margin-top: -10px;
+    margin-left: 100px;
+ }
+
+ .telefoneicon {
+    height: 55px;
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+
+ .telefone {
+    color: white;
+    margin-top: -60px;
+    margin-left: 100px;
+    font-size: 20px;
+ }
+
+ .telefonereal {
+    color: white;
+    margin-left: 100px;
+    margin-top: -10px
+ }
+
+ .relogioicon {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 15px;
+ }
+
+ .relogio {
+    color: white;
+    margin-top: -60px;
+    margin-left: 90px;
+    font-size: 20px;
+ }
+
+ .horario {
+    color: white;
+    margin-left: 92px;
+    margin-top: -10px;
+ }
+
+ .logoplanfleto {
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 70px;
+ }
+
+ .textopequenocontato {
+    color: white;
+    margin-top: 20px;
+    margin-left: 95px;
+    font-size: 20px;
+
+ }
+
+ .textograndecontato {
+    color: white;
+    margin-left: 50px;
+    margin-top: -15px;
+    font-size: 30px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    width: 350px;
+    font-weight:bolder;
+    text-align: center;
+ }
+
+ .comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #690101;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  
+  .comic-button:hover {
+    background-color: #fff;
+    color: #690101;
+    border: 2px solid #690101;
+    box-shadow: 5px 5px 0px #690101;
+  }
+  
+  .comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
