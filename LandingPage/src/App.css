@@ -1,3 +1,7 @@
+* {
+  font-family: 'Mulish', sans-serif
+}
+
 .navbar {
     width: 100%;
     position: absolute; /* Não está fixa no topo, apenas acompanha o site */
@@ -57,14 +61,14 @@
   
 
 footer {
-    
+    font-size: 25px;
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    bottom: 0; 
+    margin-top: 3900px;
     left: 0; 
     z-index: 10;
 } 
@@ -157,7 +161,7 @@ footer p{
     bottom: -700px;  
     z-index: 10;
     margin-left: 880px;
-    color: black;
+    color: #CCAC73;
     font-size: 28px;
     font-family: 'Mulish', sans-serif;
     font-weight:bolder;
@@ -173,7 +177,7 @@ footer p{
     bottom: -730px;  
     z-index: 10;
     margin-left: 920px;
-    color: red;
+    color: #CCAC73;
     font-size: 23px;
     font-family: 'Mulish', sans-serif;
    
@@ -206,7 +210,7 @@ footer p{
     bottom: -730px;  
     z-index: 10;
     margin-left: 2350px;
-    color: red;
+    color: #CCAC73;
     font-size: 23px;
     font-family: 'Mulish', sans-serif
 
@@ -250,7 +254,7 @@ body {
 }
 
 .testando {
-    margin-top: 650px;
+    margin-top: 680px;
     position: absolute;
     height: 80vh; /* A página vai ocupar 100% da altura da tela */
 }
@@ -388,7 +392,7 @@ body {
 
 
 .paginaAssistencia {
-    margin-top: 1370px;
+    margin-top: 1400px;
     position: absolute;
     height: 80vh; /* A página vai ocupar 100% da altura da tela */
 }
@@ -405,7 +409,7 @@ body {
 }
 
 .paginaFinal {
-    margin-top: 3650px;
+    margin-top: 3450px;
     position: absolute;
     height: 100vh; /* A página vai ocupar 100% da altura da tela */
 }
@@ -767,5 +771,4 @@ body {
   .link-custom:hover {
     text-decoration: underline; 
   }
-  
-  
+
