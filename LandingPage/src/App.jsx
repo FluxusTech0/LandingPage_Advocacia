@@ -11,9 +11,7 @@ import Contato from "./components/Contato";
 import PaginaFinal from "./components/PaginaFinal";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-
-
+import IconChatbot from "./components/IconChatBot";
 
 function App() {
   return (
@@ -25,6 +23,7 @@ function App() {
       <AssistenciaJuridica />
       <Contato />
       <PaginaFinal/>
+      <IconChatbot/>
       <Footer/>
     </>
   );
