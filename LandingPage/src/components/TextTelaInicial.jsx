@@ -21,6 +21,7 @@ const TextTelaInicial = () => {
 
   return (
     <>
+    <div id="section0">
       <div className="slide-container">
         <animated.p style={props} className="slide-text">
           <p className="textoRapido">Texto Rápido</p>
@@ -60,6 +61,7 @@ const TextTelaInicial = () => {
         <animated.p style={props2} className="slide-text">
           <div className="quadrado"></div>
         </animated.p>
+      </div>
       </div>
     </>
 

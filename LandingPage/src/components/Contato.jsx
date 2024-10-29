@@ -3,10 +3,13 @@ import Iconemail from '../assets/img/Emailicon.png'
 import Icontele from '../assets/img/Telefone.png'
 import Iconrelogio from '../assets/img/relogio.png'
 import Logoplanfleto from '../assets/img/logopreto.png'
+import ChatbotTeste from "./ChatTeste";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function Contato() {
   return (
     <>
+     
       <div className="paginaContato" id="section3">
         <div className="panfleto">
           <p className="Letraprincipal">Informações de contato</p>
@@ -32,6 +35,7 @@ function Contato() {
           <p className='textopequenocontato'>Entre em contato hoje mesmo</p>
           <p className='textograndecontato'>Para falar com um especialista</p>
           <button class="comic-button">Entre em contato!</button>
+         
         </div>
       </div>
     </>
