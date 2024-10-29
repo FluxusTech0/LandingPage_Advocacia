@@ -1,16 +1,17 @@
+// Contato.js
 import React, { useState } from 'react';
 import Iconhome from '../assets/img/Homeicon.png';
 import Iconemail from '../assets/img/Emailicon.png';
 import Icontele from '../assets/img/Telefone.png';
 import Iconrelogio from '../assets/img/relogio.png';
 import Logoplanfleto from '../assets/img/logopreto.png';
-import ChatbotTeste from './Chat';
+import ChatCustom from './ChatCustom'; // Importando o chatbot
 
 function Contato() {
   const [isChatOpen, setIsChatOpen] = useState(false);
 
-  const handleChatOpen = () => {
-    setIsChatOpen(!isChatOpen); // Alterna o estado ao clicar
+  const handleChatToggle = () => {
+    setIsChatOpen((prev) => !prev); // Alterna o estado do chatbot
   };
 
   return (
@@ -39,13 +40,13 @@ function Contato() {
           <img className="logoplanfleto" src={Logoplanfleto} alt="Logo" />
           <p className="textopequenocontato">Entre em contato hoje mesmo</p>
           <p className="textograndecontato">Para falar com um especialista</p>
-          <button className="comic-button" onClick={handleChatOpen}>
-            Entre em contato!
+          <button className="comic-button" onClick={handleChatToggle}>
+            {isChatOpen ? 'Fechar Chat' : 'Entre em contato!'}
           </button>
         </div>
       </div>
-      {/* Renderiza o Chatbot e passa o estado `isChatOpen` como prop */}
-      <ChatbotTeste isChatOpen={isChatOpen} />
+      {/* Renderiza o chatbot com base no estado isChatOpen */}
+      <ChatCustom isChatOpen={isChatOpen} toggleChat={handleChatToggle} />
     </>
   );
 }
