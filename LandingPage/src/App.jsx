@@ -14,7 +14,7 @@ import PaginaFinal from "./components/PaginaFinal";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Preloader from "./components/Preloader"; // Import do Preloader
-import ChatbotTeste from "./components/ChatTeste";
+import ChatbotTeste from "./components/ChatCustom";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true); // Estado de carregamento
