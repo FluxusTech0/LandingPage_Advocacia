@@ -1,3 +1,5 @@
+// src/App.jsx
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Background from "./components/Background";
 import Footer from "./components/Footer";
@@ -9,22 +11,40 @@ import Sobre from "./components/Sobre";
 import AssistenciaJuridica from "./components/AssistenciaJuridica";
 import Contato from "./components/Contato";
 import PaginaFinal from "./components/PaginaFinal";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import IconChatbot from "./components/IconChatBot";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Preloader from "./components/Preloader"; // Import do Preloader
+import ChatbotTeste from "./components/ChatTeste";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true); // Estado de carregamento
+
+  // Simulando um carregamento (por exemplo, carregamento de dados ou imagens)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false); // Define como falso após o tempo
+    }, 1000); // 3 segundos
+
+    return () => clearTimeout(timer); // Limpa o timer ao desmontar o componente
+  }, []);
+
   return (
     <>
-      <Background />
-      <Header />
-      <TextTelaInicial />
-      <Sobre />
-      <AssistenciaJuridica />
-      <Contato />
-      <PaginaFinal/>
-      <IconChatbot/>
-      <Footer/>
+      {isLoading ? (
+        <Preloader /> // Exibe o Preloader se estiver carregando
+      ) : (
+        <>
+          <Background />
+          <Header />
+          <TextTelaInicial />
+          <Sobre />
+          <AssistenciaJuridica />
+          <ChatbotTeste/>
+          <Contato />
+          <PaginaFinal />
+          <Footer />
+        </>
+      )}
     </>
   );
 }

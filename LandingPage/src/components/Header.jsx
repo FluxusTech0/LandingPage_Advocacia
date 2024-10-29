@@ -1,5 +1,3 @@
-import { Navbar } from "react-bootstrap";
-import Nav from "react-bootstrap/Nav";
 import LogoDourada from "../assets/img/logoouro.png";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
@@ -32,34 +30,22 @@ function Header() {
         <img className="imagelogob" src={LogoDourada} alt="LogoDourada" />
       </div>
 
-      <Navbar className={`navbar ${isScrolled ? "scrolled" : ""}`}>
-        <Nav variant="underline" defaultActiveKey="/home">
-          <Nav.Item>
-            <Nav.Link href="/home">INICIO</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-1">
-              <Link to="section1" smooth={true} duration={500}>
+      <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
+        <div className="alinhamento">
+        <p className="nav-link" id="InicioNav" ><Link to="section0" smooth={true} duration={500}>
+                INÍCIO
+              </Link></p>
+        <p className="nav-link" id="InicioNav"><Link to="section1" smooth={true} duration={500}>
                 SOBRE NÓS
-              </Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">
-              <Link to="section2" smooth={true} duration={500}>
-                ASSISTÊNCIA JURÍDICA
-              </Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-3">
-              <Link to="section3" smooth={true} duration={500}>
+              </Link></p>
+        <p className="nav-link" id="AssisNav"><Link to="section2" smooth={true} duration={500}>
+        ASSISTÊNCIA JURÍDICA
+              </Link></p>
+        <p className="nav-link" id="ContatoNav" > <Link to="section3" smooth={true} duration={500}>
                 CONTATO
-              </Link>
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </Navbar>
+              </Link></p>
+              </div>  
+      </nav>
     </>
   );
 }

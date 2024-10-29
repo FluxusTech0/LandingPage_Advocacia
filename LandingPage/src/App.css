@@ -4,13 +4,22 @@
 
 .navbar {
     width: 100%;
-    position: absolute; /* Não está fixa no topo, apenas acompanha o site */
+    position: relative; /* Não está fixa no topo, apenas acompanha o site */
     background-color: transparent;
     transition: background-color 0.3s ease, padding 0.3s ease;
-    padding: 20px;
     top: -100px;
     left: 620px;
-    font-size: 25px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .alinhamento {
+    display: flex; /* Alinha os itens horizontalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Alinha verticalmente */
+  gap: 50px; /* Espaçamento entre os itens */
+  padding: 10px;
   }
 
 .navbar .nav-link{
@@ -18,8 +27,8 @@
     transition: color 0.3s ease; 
 }
 
-.navbar .nav-link:hover{
-    color: #CCAC73;
+.navbar:hover{
+    color: white;
 }
 
 .navbar.scrolled {
@@ -44,7 +53,7 @@
    
 }
 
-.navbar::after {
+.navbar:after {
     content: "";
     display: block;
     height: 1px;
@@ -58,6 +67,7 @@
     z-index: -1; 
     
     }
+
   
 
 footer {

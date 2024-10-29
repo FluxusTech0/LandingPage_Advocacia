@@ -1,0 +1,54 @@
+/* src/components/Preloader.css */
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #350000; /* Fundo branco ou personalizado */
+    z-index: 9999;
+  }
+  
+  .spinner {
+    position: relative;
+    width: 240px; /* Tamanho do círculo */
+    height: 240px;
+  }
+  
+  .preloader-image {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Garante que a imagem fique acima do círculo */
+  }
+  
+  /* Círculo girando ao redor da imagem */
+  .spinner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid rgba(0, 0, 0, 0.1); /* Cor de fundo do círculo */
+    border-top: 5px solid #CCAC73; /* Cor do círculo animado */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Animação de rotação */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
