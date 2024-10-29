@@ -12,7 +12,7 @@ const theme = {
   userFontColor: "#4a4a4a",
 };
 
-const ChatbotTeste = ({ isChatOpen, toggleChat }) => {
+const ChatbotCustom = ({ isChatOpen, toggleChat }) => {
   const steps = [
     {
       id: '1',
@@ -35,8 +35,8 @@ const ChatbotTeste = ({ isChatOpen, toggleChat }) => {
     position: "fixed",
     bottom: "80px",
     right: "20px",
-    width: "300px",
-    height: "600px",
+    width: "390px",
+    height: "520px",
     boxShadow: "0px 2px 10px rgba(0, 0, 0, 0.3)",
     borderRadius: "12px",
     overflow: "hidden",
@@ -44,15 +44,29 @@ const ChatbotTeste = ({ isChatOpen, toggleChat }) => {
     display: isChatOpen ? "block" : "none", // Mostra ou esconde o chat com base no estado
   };
 
+  const closeButtonStyle = {
+    position: "absolute",
+    top: "10px",
+    right: "30px",
+    background: "none",
+    border: "none",
+    cursor: "pointer",
+    fontSize: "20px",
+    color: "#491d8d",
+  };
+
   return (
     <>
       <div style={chatContainerStyle}>
         <ThemeProvider theme={theme}>
-          <ChatBot steps={steps} />
+        <button style={closeButtonStyle} onClick={toggleChat}>
+          &times; {/* O "X" para fechar */}
+        </button>
+          <ChatBot steps={steps} headerTitle="Atendimento" />
         </ThemeProvider>
       </div>
     </>
   );
 };
 
-export default ChatbotTeste;
+export default ChatbotCustom;
