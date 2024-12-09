@@ -4,7 +4,7 @@
     background-color: transparent;
     transition: background-color 0.3s ease, padding 0.3s ease;
     top: -100px;
-    left: 90px;
+    left: 680px;
     font-size: 20px;
     color: white;
     cursor: pointer;
@@ -50,7 +50,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-left: 480px;
+    margin-left: -100px;
     top: 64px;
     z-index: -1; 
     
@@ -62,3 +62,11 @@
         margin-left: 30px;
         margin-top: 10px;
     }
+
+   @media screen and (max-width: 680px){
+   .responsive { 
+    background: red;
+   }
+   }
+    
+   
