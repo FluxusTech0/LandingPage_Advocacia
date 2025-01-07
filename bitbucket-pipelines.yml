@@ -6,10 +6,10 @@ pipelines:
   default:
     - step:
        script:
-        - git config --global user.email "reinanappa0@gmail.com"
-        - git config --global user.name "reinanSalesforce"
+        - git config --global user.email "projeto.businessagil@gmail.com"
+        - git config --global user.name "FluxusTech0"
         # Adicionar um reposit rio remoto chamado 'destination'
-        - git remote add destination git@github.com:reinanSalesforce/RepositoryTeste.git
+        - git remote add destination https://$GITHUB_TOKEN@github.com/FluxusTech0/LandingPage_Advocacia.git
         # Fazer o push para o 'destination'
         - git push destination --all
         - git push destination --tags
