@@ -34,9 +34,9 @@ function Header() {
       </div>
       <div className="responsive">
       <Navbar className={`navbar ${isScrolled ? "scrolled" : ""}`}>
-        <Nav variant="underline" defaultActiveKey="/home">
+        <Nav variant="underline" defaultActiveKey="/">
           <Nav.Item>
-            <Nav.Link href="/home">INICIO</Nav.Link>
+            <Nav.Link href="/">INICIO</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-1">
