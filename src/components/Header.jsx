@@ -32,11 +32,16 @@ function Header() {
       <div>
         <img className="imagelogob" src={LogoDourada} alt="LogoDourada" />
       </div>
+      <div id="top"></div>
       <div className="responsive">
       <Navbar className={`navbar ${isScrolled ? "scrolled" : ""}`}>
-        <Nav variant="underline" defaultActiveKey="/">
+        <Nav >
           <Nav.Item>
-            <Nav.Link href="/">INICIO</Nav.Link>
+            <Nav.Link as="span" >
+              <Link to="top" smooth={true} duration={500}  offset={-150}>
+                INICIO
+              </Link>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-1">
