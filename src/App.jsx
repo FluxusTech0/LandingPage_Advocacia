@@ -34,6 +34,8 @@ function App() {
         <Preloader /> // Exibe o Preloader se estiver carregando
       ) : (
         <>
+        <div id="top"></div>
+
           <Background />
           <Header />
           <TextTelaInicial />

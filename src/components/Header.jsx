@@ -38,7 +38,7 @@ function Header() {
         <Nav >
           <Nav.Item>
             <Nav.Link as="span" >
-              <Link to="top" smooth={true} duration={500}  offset={-150}>
+              <Link to="top" smooth={true} duration={500}  offset={-250}>
                 INICIO
               </Link>
             </Nav.Link>

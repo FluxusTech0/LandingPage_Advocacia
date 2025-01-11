@@ -24,7 +24,7 @@ function PaginaFinal() {
         </a>
         <p className="Letragrandefinal">Links Rápidos</p>
         <ul className="listinha">
-          <a href="/home" className="link-custom"><li>Início</li></a>
+          <a href="#top" className="link-custom"><li>Início</li></a>
           <br />
           <a href="#section1" className="link-custom"><li>Sobre Nós</li></a>
           <br />
