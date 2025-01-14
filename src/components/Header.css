@@ -4,25 +4,20 @@
     background-color: transparent;
     transition: background-color 0.3s ease, padding 0.3s ease;
     top: -100px;
-    left: 680px;
     font-size: 20px;
     color: white;
-    cursor: pointer;
+  }
+
+  .topicos {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0px 10px;
+    padding-left: 620px;
   }
 
-  .alinhamento {
-  display: flex; /* Alinha os itens em linha */
-  justify-content: space-around; /* Distribui uniformemente o espaço */
-  align-items: center; /* Alinha verticalmente */
-  gap: 60px; /* Espaçamento entre os itens */
-  margin-left: 550px;
-  margin-top: 10px;
+  .topicos2 {
+    padding: 0px 10px;
   }
-
-  
 
 .navbar .nav-link{
     color: #CCAC73;
@@ -45,12 +40,12 @@
     content: "";
     display: block;
     height: 1px;
-    width: 45%;
+    width: 40%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-left: -100px;
+    margin-left: 560px;
     top: 64px;
     z-index: -1; 
     
@@ -63,10 +58,141 @@
         margin-top: 10px;
     }
 
-   @media screen and (max-width: 680px){
-   .responsive { 
-    background: red;
-   }
-   }
+    @media (max-width: 480px) {
+      .navbar {
+        width: 100%;
+        position: relative; /* Não está fixa no topo, apenas acompanha o site */
+        background-color: transparent;
+        transition: background-color 0.3s ease, padding 0.3s ease;
+        top: -100px;
+        left: 0px;
+        font-size: 11px;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .topicos {
+        margin-left: -570px;
+        margin-top: 100px;
+      
+      }
+
+      .topicos2 {
+        margin-top: 100px;
+      }
+    
+    .navbar .nav-link{
+        color: #CCAC73;
+        transition: color 0.3s ease; 
+    }
+    
+    .navbar:hover{
+        color: white;
+    }
+    
+    .navbar.scrolled {
+        position: fixed; /* Quando rolar, a navbar segue fixada */
+        top: 0;
+        background-color: #350000; /* Altera a cor quando o scroll acontece */
+        padding: 10px;
+        z-index: 10000; 
+      }
+    
+      .navbar:after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 88%;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 35px;
+        top: 150px;
+        z-index: -1; 
+        
+        }
+    
+        .imagelogob {
+            width: 120px;
+            height: 70px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    
+      }
+
+      @media (min-width: 768px) and (max-width: 1200px) {
+        .navbar {
+          width: 100%;
+          position: relative; /* Não está fixa no topo, apenas acompanha o site */
+          background-color: transparent;
+          transition: background-color 0.3s ease, padding 0.3s ease;
+          top: -100px;
+          left: 0px;
+          font-size: 19px;
+          color: white;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      
+        .topicos {
+          margin-left: -500px;
+          margin-top: 100px;
+        }
+  
+        .topicos2 {
+          margin-top: 100px;
+        }
+      
+      .navbar .nav-link{
+          color: #CCAC73;
+          transition: color 0.3s ease; 
+      }
+      
+      .navbar:hover{
+          color: white;
+      }
+      
+      .navbar.scrolled {
+          position: fixed; /* Quando rolar, a navbar segue fixada */
+          top: 0;
+          background-color: #350000; /* Altera a cor quando o scroll acontece */
+          padding: 10px;
+          z-index: 10000; 
+        }
+      
+        .navbar:after {
+          content: "";
+          display: block;
+          height: 1px;
+          width: 630px;
+          background-color: rgba(255, 255, 255, 0.5);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          margin-left: 98px;
+          top: 150px;
+          z-index: -1; 
+          
+          }
+      
+          .imagelogob {
+              width: 150px;
+              height: 80px;
+              margin-left: 10px;
+              margin-top: 10px;
+          }
+      
+        }
+
+        
+
+    
     
    

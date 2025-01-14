@@ -36,28 +36,28 @@ function Header() {
       <div className="responsive">
       <Navbar className={`navbar ${isScrolled ? "scrolled" : ""}`}>
         <Nav >
-          <Nav.Item>
+          <Nav.Item className="topicos">
             <Nav.Link as="span" >
               <Link to="top" smooth={true} duration={500}  offset={-250}>
                 INICIO
               </Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="topicos2">
             <Nav.Link eventKey="link-1">
               <Link to="section1" smooth={true} duration={500}>
                 SOBRE NÓS
               </Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="topicos2">
             <Nav.Link eventKey="link-2">
               <Link to="section2" smooth={true} duration={500}>
                 ASSISTÊNCIA JURÍDICA
               </Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="topicos2">
             <Nav.Link eventKey="link-3">
               <Link to="section3" smooth={true} duration={500}>
                 CONTATO
