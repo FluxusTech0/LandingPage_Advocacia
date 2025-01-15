@@ -58,11 +58,6 @@ const TextTelaInicial = () => {
           <div className="nomeoab2">OAB/PE 99999</div>
         </animated.p>
       </div>
-      <div>
-        <animated.p style={props2} className="slide-text">
-          <div className="quadrado"></div>
-        </animated.p>
-      </div>
       </div>
     </>
 
