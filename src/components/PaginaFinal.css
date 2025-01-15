@@ -100,10 +100,7 @@
     content: "";
     width: 100%;
     height: 100%;
-    background: #f09433;
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: red;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     z-index: -1;
     border-radius: 9px;
@@ -131,4 +128,280 @@
   
   .link-custom:hover {
     text-decoration: underline; 
+  }
+
+  @media (max-width: 480px) {
+    .textopequenoFinal {
+      color: #CCAC73;
+       
+  }
+  
+  .paginaFinal {
+      margin-top: 3450px;
+      position: absolute;
+      height: 50vh; /* A página vai ocupar 100% da altura da tela */
+  }
+  
+  
+    .logofinal {
+      width: 130px;
+      height: 70px;
+      margin-left: 10px;
+    }
+  
+    .Letragrandefinal {
+      color: white;
+      margin-left: 170px;
+      margin-top: -150px;
+      font-size: 10px;
+      font-weight: bolder;
+    }
+  
+    .listinha {
+     color: white;
+     margin-left: 150px;
+     margin-top: 30px;
+     font-size: 8px;
+    }
+  
+    .Letragrandeass {
+      margin-left: 270px;
+      margin-top: -122px;
+      color: white;
+      font-weight: bolder;
+      font-size: 10px;
+    }
+  
+    .listinha2 {
+      color: white;
+      margin-left: 250px;
+      margin-top: 30px;
+      font-size: 8px;
+     }
+  
+     .Letragrandecontato{
+      color: white;
+      margin-left: 395px;
+      margin-top: -167px;
+      font-size: 10px;
+      font-weight: bolder;
+     }
+  
+    .numerofinal {
+      color: white;
+      margin-left: 390px;
+      margin-top: 32px;
+      font-size: 8px;
+    }
+  
+    .emailfinal {
+      color: white;
+      margin-left: 380px;
+      margin-top: 20px;
+      font-size: 8px;
+    }
+  
+    .Btn {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+      position: relative;
+      /* overflow: hidden; */
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all .3s;
+      margin-top: 30px;
+      margin-left: 50px;
+    }
+    
+    .svgContainer {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      backdrop-filter: blur(4px);
+      letter-spacing: 0.8px;
+      border-radius: 10px;
+      transition: all .3s;
+      border: 1px solid rgba(156, 156, 156, 0.466);
+    }
+    
+    .BG {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: red;
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      z-index: -1;
+      border-radius: 9px;
+      pointer-events: none;
+      transition: all .3s;
+      
+    }
+    
+    
+    .Btn:hover .BG {
+      transform: rotate(35deg);
+      transform-origin: bottom;
+    }
+    
+    .Btn:hover .svgContainer {
+      background-color: rgba(156, 156, 156, 0.466);
+    }
+  
+    
+  .link-custom {
+      text-decoration: none;  
+      color: inherit;         
+      font-weight: normal;    
+    }
+    
+    .link-custom:hover {
+      text-decoration: underline; 
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .textopequenoFinal {
+      color: #CCAC73;
+       
+  }
+  
+  .paginaFinal {
+      margin-top: 3450px;
+      position: absolute;
+      height: 50vh; /* A página vai ocupar 100% da altura da tela */
+  }
+  
+  
+    .logofinal {
+      width: 200px;
+      height: 100px;
+      margin-left: 30px;
+    }
+  
+    .Letragrandefinal {
+      color: white;
+      margin-left: 300px;
+      margin-top: -146px;
+      font-size: 14px;
+      font-weight: bolder;
+    }
+  
+    .listinha {
+     color: white;
+     margin-left: 285px;
+     margin-top: 30px;
+     font-size: 12px;
+    }
+  
+    .Letragrandeass {
+      margin-left: 440px;
+      margin-top: -156px;
+      color: white;
+      font-weight: bolder;
+      font-size: 14px;
+    }
+  
+    .listinha2 {
+      color: white;
+      margin-left: 420px;
+      margin-top: 30px;
+      font-size: 12px;
+     }
+  
+     .Letragrandecontato{
+      color: white;
+      margin-left: 620px;
+      margin-top: -229px;
+      font-size: 14px;
+      font-weight: bolder;
+     }
+  
+    .numerofinal {
+      color: white;
+      margin-left: 600px;
+      margin-top: 32px;
+      font-size: 12px;
+    }
+  
+    .emailfinal {
+      color: white;
+      margin-left: 580px;
+      margin-top: 20px;
+      font-size: 12px;
+    }
+  
+    .Btn {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+      position: relative;
+      /* overflow: hidden; */
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all .3s;
+      margin-top: 30px;
+      margin-left: 100px;
+    }
+    
+    .svgContainer {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      backdrop-filter: blur(4px);
+      letter-spacing: 0.8px;
+      border-radius: 10px;
+      transition: all .3s;
+      border: 1px solid rgba(156, 156, 156, 0.466);
+    }
+    
+    .BG {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: red;
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      z-index: -1;
+      border-radius: 9px;
+      pointer-events: none;
+      transition: all .3s;
+      
+    }
+    
+    
+    .Btn:hover .BG {
+      transform: rotate(35deg);
+      transform-origin: bottom;
+    }
+    
+    .Btn:hover .svgContainer {
+      background-color: rgba(156, 156, 156, 0.466);
+    }
+  
+    
+  .link-custom {
+      text-decoration: none;  
+      color: inherit;         
+      font-weight: normal;    
+    }
+    
+    .link-custom:hover {
+      text-decoration: underline; 
+    }
   }
