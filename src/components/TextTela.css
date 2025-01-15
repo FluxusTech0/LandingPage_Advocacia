@@ -127,18 +127,6 @@
 
 }
 
-.quadrado {
-    width: 860px;
-    height: 750px;
-    border: 15px solid black; 
-    background-color: transparent; 
-    z-index: -1;
-    left: 1545px;
-    margin-top: -55px;
-    position: absolute;
-    margin-left: 190px;
-}
-
 @media screen and (max-width: 680px) {
     .section0{
         display: flex;
@@ -148,3 +136,271 @@
         margin-left: auto;
     }
 }
+
+
+@media (max-width: 480px) {
+    .textoRapido{
+        color: #CCAC73;
+        margin-left: 470px;
+        position: absolute;
+        top: 10px; /* Altere a posição como necessário */
+        width: 100px;
+    }
+    
+    
+    .textoTituloGrande{
+        color: #CCAC73;
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 470px;
+        font-size: 220%;
+        width: 300px; /* Defina a largura do contêiner */
+        word-wrap: break-word; /* Quebra palavras longas se não couber */
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+        z-index: 1;
+        
+    
+    }
+    
+    .textoTextoPequeno{
+        color: #CCAC73;
+        margin-left: 470px;
+        margin-top: 150px;
+        z-index: 9;
+        width: 230px; /* Defina a largura do contêiner */
+        word-wrap: break-word; /* Quebra palavras longas se não couber */
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+        position: absolute;
+        font-size: 9px;
+    }
+    
+    .slide-container{
+        color: #CCAC73;
+        margin-left: -230px;
+        margin-top: 10px;
+        z-index: 2;
+        width: 500px; /* Defina a largura do contêiner */
+        word-wrap: break-word; /* Quebra palavras longas se não couber */
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+    }
+    
+    .imageAdvogado{
+        width: 130px;
+        height: 300px;
+        left: 700px;
+        margin-top: -3px;
+        position: absolute;
+        z-index: 10;
+    
+    }
+    
+    .imageAdvogada{
+        width: 130px;
+        height: 295px;
+        left: 570px;
+        margin-top: -1px;
+        position: absolute;
+        z-index: 10;
+    
+    }
+    
+    .nomep {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -350px;  
+        z-index: 10;
+        margin-left: 720px;
+        color: #CCAC73;
+        font-size: 11px;
+        font-family: 'Mulish', sans-serif;
+        font-weight:bolder;
+    }
+    
+    .nomeoab {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -360px;  
+        z-index: 10;
+        margin-left: 720px;
+        color: #CCAC73;
+        font-size: 11px;
+        font-family: 'Mulish', sans-serif;
+       
+        
+    }
+    
+    .nomep2 {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -350px;  
+        z-index: 10;
+        margin-left: 588px;
+        color: #CCAC73;
+        font-size: 11px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .nomeoab2 {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -360px;  
+        z-index: 10;
+        margin-left: 588px;
+        color: #CCAC73;
+        font-size: 11px;
+        font-family: 'Mulish', sans-serif
+    
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .textoRapido{
+        color: #CCAC73;
+        margin-left: 480px;
+        position: absolute;
+        top: 10px; /* Altere a posição como necessário */
+        width: 100px;
+    }
+    
+    
+    .textoTituloGrande{
+        color: #CCAC73;
+        margin-top: 40px;
+        position: absolute;
+        margin-left: 480px;
+        font-size: 220%;
+        width: 300px; /* Defina a largura do contêiner */
+        word-wrap: break-word; /* Quebra palavras longas se não couber */
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+        z-index: 1;
+        
+    
+    }
+    
+    .textoTextoPequeno{
+        color: #CCAC73;
+        margin-left: 480px;
+        margin-top: 150px;
+        z-index: 9;
+        width: 280px; /* Defina a largura do contêiner */
+        word-wrap: break-word; /* Quebra palavras longas se não couber */
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+        position: absolute;
+        font-size: 11px;
+    }
+    
+    .slide-container{
+        color: #CCAC73;
+        margin-left: -230px;
+        margin-top: 10px;
+        z-index: 2;
+        width: 500px; /* Defina a largura do contêiner */
+        word-wrap: break-word; /* Quebra palavras longas se não couber */
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+    }
+    
+    .imageAdvogado{
+        width: 200px;
+        height: 340px;
+        left: 850px;
+        margin-top: -3px;
+        position: absolute;
+        z-index: 10;
+    
+    }
+    
+    .imageAdvogada{
+        width: 200px;
+        height: 330px;
+        left: 920px;
+        margin-top: 8px;
+        position: absolute;
+        z-index: 10;
+    
+    }
+    
+    .nomep {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -380px;  
+        z-index: 10;
+        margin-left: 890px;
+        color: #CCAC73;
+        font-size: 16px;
+        font-family: 'Mulish', sans-serif;
+        font-weight:bolder;
+    }
+    
+    .nomeoab {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -390px;  
+        z-index: 10;
+        margin-left: 890px;
+        color: #CCAC73;
+        font-size: 16px;
+        font-family: 'Mulish', sans-serif;
+       
+        
+    }
+    
+    .nomep2 {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -380px;  
+        z-index: 10;
+        margin-left: 970px;
+        color: #CCAC73;
+        font-size: 16px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bolder;
+    }
+    
+    .nomeoab2 {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute; 
+        bottom: -390px;  
+        z-index: 10;
+        margin-left: 970px;
+        color: #CCAC73;
+        font-size: 16px;
+        font-family: 'Mulish', sans-serif
+    
+    }
+}
+
