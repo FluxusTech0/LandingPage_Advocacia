@@ -102,3 +102,98 @@
         }
     }
     
+    @media (max-width: 480px) {
+        .sobretela {
+            margin-top: 680px;
+            position: absolute;
+            height: 80vh; /* A página vai ocupar 100% da altura da tela */
+        }
+        
+        .backgroundSobre {
+            position: relative;
+            top: 50px;
+            z-index: -1;
+            left: 250px;
+          }
+        
+        
+        .backgroundSobre h2 {
+            font-weight: 400;
+            font-size: 250px;
+            line-height: 220px;
+            text-transform: uppercase;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #CCAC73;
+            opacity: .1;
+            
+            
+        }
+        
+        
+        .Sobre {
+            margin-top: -150px;
+            position: absolute;
+            color: #CCAC73;
+            font-size: 450%;
+            margin-left: 280px;
+            word-wrap: break-word; /* Quebra palavras longas se não couber */
+            overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+            width: 500px;
+        }
+        
+        .Sobrepequeno {
+            margin-top: 90px;
+            color: #CCAC73;
+            width: 500px; /* Defina a largura do contêiner */
+            word-wrap: break-word; /* Quebra palavras longas se não couber */
+            overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+            position: absolute;
+            margin-left: 280px;
+            
+        }
+        
+        .ImagemSobre {
+                width: 500px;
+                height: 150px;
+                left: 1050px;
+                margin-top: -150px;
+                position: absolute;
+                z-index: 1;
+            
+        }
+        
+        .SobreNos {
+            margin-top: 10px;
+            color: #CCAC73;
+            margin-left: 880px;
+            font-size: 20px;
+            margin-top: 170px;
+        }
+        
+        .Infos {
+            color: whitesmoke;
+            margin-left: 700px;
+            font-size: 30px;
+            font-family: 'Mulish', sans-serif;
+            font-weight:bolder;
+        
+        
+        }
+        
+        
+        .Infos::after {
+            content: "";
+            display: block;
+            height: 1px;
+            width: 5%;
+            background-color: #CCAC73;
+            position: absolute;
+            bottom: 0;
+            left: 970px;
+            margin-left: -80px;
+            top: 270px;
+            z-index: -1; 
+            
+            }
+    }
