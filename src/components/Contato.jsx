@@ -41,7 +41,7 @@ function Contato() {
           <img className="logoplanfleto" src={Logoplanfleto} alt="Logo" />
           <p className="textopequenocontato">Entre em contato hoje mesmo</p>
           <p className="textograndecontato">Para falar com um especialista</p>
-         <a href="https://wa.me/5581984142286?text=Olá!%20Gostaria%20de%20mais%20informações."target="_blank" rel="noopener noreferrer"><button className="comic-button">Entre em contato!</button></a>
+         <a href="https://wa.me/5581971115922?text=Olá!%20Gostaria%20de%20mais%20informações."target="_blank" rel="noopener noreferrer"><button className="comic-button">Entre em contato!</button></a>
         </div>
       </div>
       {/* Renderiza o chatbot com base no estado isChatOpen */}
