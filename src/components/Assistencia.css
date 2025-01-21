@@ -73,3 +73,81 @@
   .image-container:hover .hover-text {
     display: block; /* Exibir o texto adicional ao passar o mouse */
   }
+
+  @media (max-width: 480px) {
+    .textopequenoAssistencia {
+      color: #CCAC73;
+      margin-left: 70px;
+      font-size: 17px;
+      margin-top: 250px;
+      position: absolute;
+  }
+  
+  .textoGrandeAssistencia {
+      color: white;
+      margin-left: 70px;
+      font-size: 27px;
+      font-weight:bolder;
+      margin-top: 290px; 
+  
+  }
+  
+  .textoGrandeAssistencia::after {
+      content: '';
+      position: absolute;
+      top: 250px;
+      left: 3%;
+      transform: translateX(-50%);
+      width: 2px;
+      height: 12%;
+      background-color: #CCAC73;
+  
+  }
+  
+  
+  .paginaAssistencia {
+      margin-top: 1400px;
+      position: absolute;
+      height: 80vh; /* A página vai ocupar 100% da altura da tela */
+  }
+  
+  .Imagemcarrossel {
+      width: 350px;
+      height: 450px;
+  }
+  
+  .slider-container {
+      margin-top: 100px;
+      margin-left: 80px;
+  }
+  
+  .text-container {
+      position: absolute;
+      bottom: 10px;
+      left: 35px;
+      width: 90%;
+    }
+    
+    .fixed-text {
+      color: white;
+      background-color: transparent;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 25px;
+      font-weight: bold
+    }
+    
+    .hover-text {
+      color: white;
+      background-color: transparent;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 5px;
+      display: none; /* Ocultar por padrão */
+      font-weight: bold
+    }
+    
+    .image-container:hover .hover-text {
+      display: block; /* Exibir o texto adicional ao passar o mouse */
+    }
+  }

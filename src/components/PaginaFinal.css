@@ -146,22 +146,22 @@
     .logofinal {
       width: 130px;
       height: 70px;
-      margin-left: 10px;
+      margin-left: 20px;
     }
   
     .Letragrandefinal {
       color: white;
-      margin-left: 170px;
+      margin-left: 250px;
       margin-top: -150px;
-      font-size: 10px;
+      font-size: 14px;
       font-weight: bolder;
     }
   
     .listinha {
      color: white;
-     margin-left: 150px;
+     margin-left: 230px;
      margin-top: 30px;
-     font-size: 8px;
+     font-size: 11px;
     }
   
     .Letragrandeass {
@@ -170,6 +170,7 @@
       color: white;
       font-weight: bolder;
       font-size: 10px;
+      opacity: 0;
     }
   
     .listinha2 {
@@ -177,6 +178,7 @@
       margin-left: 250px;
       margin-top: 30px;
       font-size: 8px;
+      opacity: 0;
      }
   
      .Letragrandecontato{
@@ -185,6 +187,7 @@
       margin-top: -167px;
       font-size: 10px;
       font-weight: bolder;
+      opacity: 0;
      }
   
     .numerofinal {
@@ -192,6 +195,7 @@
       margin-left: 390px;
       margin-top: 32px;
       font-size: 8px;
+      opacity: 0;
     }
   
     .emailfinal {
@@ -199,6 +203,7 @@
       margin-left: 380px;
       margin-top: 20px;
       font-size: 8px;
+      opacity: 0;
     }
   
     .Btn {
@@ -215,7 +220,7 @@
       cursor: pointer;
       transition: all .3s;
       margin-top: 30px;
-      margin-left: 50px;
+      margin-left: 60px;
     }
     
     .svgContainer {
