@@ -141,18 +141,18 @@
 @media (max-width: 480px) {
     .textoRapido{
         color: #CCAC73;
-        margin-left: 470px;
+        margin-left: 810px;
         position: absolute;
-        top: 10px; /* Altere a posição como necessário */
+        top: 370px; /* Altere a posição como necessário */
         width: 100px;
     }
     
     
     .textoTituloGrande{
         color: #CCAC73;
-        margin-top: 40px;
+        margin-top: 410px;
         position: absolute;
-        margin-left: 470px;
+        margin-left: 770px;
         font-size: 220%;
         width: 300px; /* Defina a largura do contêiner */
         word-wrap: break-word; /* Quebra palavras longas se não couber */
@@ -164,19 +164,19 @@
     
     .textoTextoPequeno{
         color: #CCAC73;
-        margin-left: 470px;
-        margin-top: 150px;
+        margin-left: 750px;
+        margin-top: 530px;
         z-index: 9;
-        width: 230px; /* Defina a largura do contêiner */
+        width: 280px; /* Defina a largura do contêiner */
         word-wrap: break-word; /* Quebra palavras longas se não couber */
         overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
         position: absolute;
-        font-size: 9px;
+        font-size: 11px;
     }
     
     .slide-container{
         color: #CCAC73;
-        margin-left: -230px;
+        margin-left: -400px;
         margin-top: 10px;
         z-index: 2;
         width: 500px; /* Defina a largura do contêiner */
@@ -185,7 +185,7 @@
     }
     
     .imageAdvogado{
-        width: 130px;
+        width: 170px;
         height: 300px;
         left: 700px;
         margin-top: -3px;
@@ -195,9 +195,9 @@
     }
     
     .imageAdvogada{
-        width: 130px;
+        width: 170px;
         height: 295px;
-        left: 570px;
+        left: 470px;
         margin-top: -1px;
         position: absolute;
         z-index: 10;
@@ -246,7 +246,7 @@
         position: absolute; 
         bottom: -350px;  
         z-index: 10;
-        margin-left: 588px;
+        margin-left: 530px;
         color: #CCAC73;
         font-size: 11px;
         font-family: 'Mulish', sans-serif;
@@ -262,7 +262,7 @@
         position: absolute; 
         bottom: -360px;  
         z-index: 10;
-        margin-left: 588px;
+        margin-left: 535px;
         color: #CCAC73;
         font-size: 11px;
         font-family: 'Mulish', sans-serif
