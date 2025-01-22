@@ -139,7 +139,7 @@
   .paginaFinal {
       margin-top: 3450px;
       position: absolute;
-      height: 50vh; /* A página vai ocupar 100% da altura da tela */
+      height: 10vh; /* A página vai ocupar 100% da altura da tela */
   }
   
   

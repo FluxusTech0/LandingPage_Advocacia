@@ -11,7 +11,7 @@ function Sobre() {
         <div className="backgroundSobre">
           <h2>Sobre Nós</h2>
           </div>
-        <div className='ImagemSobre'><img src={ImagemS} alt="" /></div>
+        <div><img className='ImagemSobre' src={ImagemS} alt="" /></div>
         <p className="Sobre">Texto Titulo Grande</p> 
         
         <p className="Sobrepequeno">
