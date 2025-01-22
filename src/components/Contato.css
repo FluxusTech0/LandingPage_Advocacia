@@ -201,25 +201,25 @@
   @media (max-width: 480px) {
    .panfleto {
       background-color: #690101;
-      width: 200px;
-      height: 500px;
+      width: 180px;
+      height: 470px;
       margin-top: 200px;
-      margin-left: 50px;
+      margin-left: 20px;
   
    }
   
    .panfleto2 {
       background-color: #CCAC73;
-      width: 200px;
+      width: 180px;
       height: 450px;
-      margin-top: -500px;
-      margin-left: 250px;
+      margin-top: -470px;
+      margin-left: 200px;
   
    }
   
    .Letraprincipal {
       color: white;
-      margin-left: 30px;
+      margin-left: 20px;
       font-size: 13px;
       font-weight: bolder;
       word-wrap: break-word; 
@@ -235,7 +235,7 @@
       background-color: rgba(255, 255, 255, 0.5);
       position: absolute;
       bottom: 0;
-      left: 75px;
+      left: 45px;
       top: 230px;
       
    }
@@ -245,7 +245,7 @@
       overflow-wrap: break-word;
       color: white;
       font-size: 9px;
-      width: 190px;
+      width: 170px;
       margin-left: 5px;
       margin-top: 30px;
    } 
@@ -270,7 +270,7 @@
       margin-left: 65px;
       word-wrap: break-word; 
       overflow-wrap: break-word;
-      width: 150px;
+      width: 110px;
       font-size: 10px;
    }
   
@@ -292,7 +292,7 @@
       color: white;
       margin-top: -8px;
       margin-left: 66px;
-      font-size: 11px;
+      font-size: 9px;
    }
   
    .telefoneicon {
@@ -355,12 +355,12 @@
   
    .textograndecontato {
       color: white;
-      margin-left: -24px;
+      margin-left: -30px;
       margin-top: -15px;
-      font-size: 18px;
+      font-size: 16px;
       word-wrap: break-word; 
       overflow-wrap: break-word;
-      width: 250px;
+      width: 230px;
       font-weight:bolder;
       text-align: center;
    }
@@ -368,7 +368,7 @@
    .comic-button {
     display: inline-block;
     padding: 1px 1px;
-    font-size: 20px;
+    font-size: 17px;
     height: 62px;
     font-weight: bold;
     text-align: center;
@@ -396,6 +396,13 @@
       box-shadow: none;
       transform: translateY(4px);
     }
+   .paginaContato {
+      margin-top: 2400px;
+      position: absolute;
+      height: 20vh; /* A página vai ocupar 100% da altura da tela */
+     
+  }
+  
   }
 
   @media (min-width: 768px) and (max-width: 1200px) {

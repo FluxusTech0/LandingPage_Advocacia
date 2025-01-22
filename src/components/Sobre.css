@@ -50,7 +50,7 @@
 
 .ImagemSobre {
         width: 500px;
-        height: 150px;
+        height: 400px;
         left: 1050px;
         margin-top: -150px;
         position: absolute;
@@ -110,7 +110,7 @@
         
         .backgroundSobre {
             position: relative;
-            top: 50px;
+            top: 10px;
             z-index: -1;
             left: 30px;
           }
@@ -132,48 +132,49 @@
         
         
         .Sobre {
-            margin-top: -250px;
+            margin-top: -390px;
             position: absolute;
             color: #CCAC73;
-            font-size: 450%;
-            margin-left: 280px;
+            font-size: 220%;
+            margin-left: 130px;
             word-wrap: break-word; /* Quebra palavras longas se não couber */
             overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
-            width: 500px;
+            width: 300px;
         }
         
         .Sobrepequeno {
-            margin-top: 1500px;
+            margin-top: -250px;
             color: #CCAC73;
-            width: 500px; /* Defina a largura do contêiner */
+            width: 330px; /* Defina a largura do contêiner */
             word-wrap: break-word; /* Quebra palavras longas se não couber */
             overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
             position: absolute;
-            margin-left: 280px;
+            margin-left: 80px;
+            font-size: 10px;
             
         }
         
         .ImagemSobre {
-                width: 100px;
-                height: 100px;
+                width: 210px;
+                height: 210px;
                 left: 30px;
-                margin-top: -550px;
+                margin-top: -830px;
+                margin-left: 110px;
                 z-index: 1;
             
         }
         
         .SobreNos {
-            margin-top: 10px;
             color: #CCAC73;
-            margin-left: 880px;
-            font-size: 20px;
-            margin-top: 170px;
+            margin-left: 200px;
+            font-size: 17px;
+            margin-top: 400px;
         }
         
         .Infos {
             color: whitesmoke;
-            margin-left: 700px;
-            font-size: 30px;
+            margin-left: 80px;
+            font-size: 20px;
             font-family: 'Mulish', sans-serif;
             font-weight:bolder;
         
@@ -185,13 +186,13 @@
             content: "";
             display: block;
             height: 1px;
-            width: 5%;
+            width: 26%;
             background-color: #CCAC73;
             position: absolute;
             bottom: 0;
             left: 970px;
-            margin-left: -80px;
-            top: 270px;
+            margin-left: -780px;
+            top: 500px;
             z-index: -1; 
             
             }
