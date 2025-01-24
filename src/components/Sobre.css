@@ -106,6 +106,7 @@
             margin-top: 680px;
             position: absolute;
             height: 80vh; /* A página vai ocupar 100% da altura da tela */
+            max-width: 50vh;
         }
         
         .backgroundSobre {
