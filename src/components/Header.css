@@ -60,7 +60,7 @@
 
     @media (max-width: 480px) {
       .navbar {
-        width: 30%;
+        width: 100%;
         position: relative; /* Não está fixa no topo, apenas acompanha o site */
         background-color: transparent;
         transition: background-color 0.3s ease, padding 0.3s ease;
