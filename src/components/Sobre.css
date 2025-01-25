@@ -111,7 +111,7 @@
         
         .backgroundSobre {
             position: relative;
-            top: 10px;
+            top: 60px;
             z-index: -1;
             left: 30px;
           }
@@ -119,8 +119,8 @@
         
         .backgroundSobre h2 {
             font-weight: 400;
-            font-size: 120px;
-            line-height: 230px;
+            font-size: 110px;
+            line-height: 140px;
             text-transform: uppercase;
             -webkit-text-fill-color: transparent;
             -webkit-text-stroke-width: 2px;
@@ -133,24 +133,24 @@
         
         
         .Sobre {
-            margin-top: -390px;
+            margin-top: -200px;
             position: absolute;
             color: #CCAC73;
             font-size: 220%;
-            margin-left: 130px;
+            margin-left: 90px;
             word-wrap: break-word; /* Quebra palavras longas se não couber */
             overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
             width: 300px;
         }
         
         .Sobrepequeno {
-            margin-top: -250px;
+            margin-top: -50px;
             color: #CCAC73;
             width: 330px; /* Defina a largura do contêiner */
             word-wrap: break-word; /* Quebra palavras longas se não couber */
             overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
             position: absolute;
-            margin-left: 80px;
+            margin-left: 50px;
             font-size: 10px;
             
         }
@@ -159,7 +159,7 @@
                 width: 210px;
                 height: 210px;
                 left: 30px;
-                margin-top: -830px;
+                margin-top: -680px;
                 margin-left: 110px;
                 z-index: 1;
             
