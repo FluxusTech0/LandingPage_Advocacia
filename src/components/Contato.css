@@ -199,11 +199,17 @@
   }
 
   @media (max-width: 480px) {
+   .paginaContato {
+      margin-top: 2500px;
+      position: absolute;
+      height: 10vh; /* A página vai ocupar 100% da altura da tela */
+  }
+   
    .panfleto {
       background-color: #690101;
       width: 180px;
       height: 470px;
-      margin-top: 200px;
+      margin-top: -180px;
       margin-left: 20px;
   
    }
@@ -236,7 +242,7 @@
       position: absolute;
       bottom: 0;
       left: 45px;
-      top: 230px;
+      top: -150px;
       
    }
   

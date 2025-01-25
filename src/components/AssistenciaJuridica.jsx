@@ -15,9 +15,10 @@ function AssistenciaJuridica() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1
   };
+
 
   return (
     <>
@@ -30,12 +31,7 @@ function AssistenciaJuridica() {
         </p>
 
         <div className="slider-container">
-          <div
-            style={{
-              width: 1700,
-              display: display ? "block" : "none"
-            }}
-          >
+          <div>
             <Slider {...settings}>
               <div className="carousel-item">
                 <div className="image-container">
