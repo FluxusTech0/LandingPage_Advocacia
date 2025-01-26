@@ -12,12 +12,21 @@ function AssistenciaJuridica() {
   const [width, setWidth] = useState(600);
 
   const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1
-  };
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 480, // Para telas de até 480px
+      settings: {
+        slidesToShow: 2, // Mostrar 2 slides
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
 
 
   return (

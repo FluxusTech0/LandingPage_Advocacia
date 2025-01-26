@@ -188,7 +188,7 @@
         width: 170px;
         height: 300px;
         left: 700px;
-        margin-top: -3px;
+        margin-top: -60px;
         position: absolute;
         z-index: 10;
     
@@ -197,8 +197,8 @@
     .imageAdvogada{
         width: 170px;
         height: 295px;
-        left: 410px;
-        margin-top: 8px;
+        left: 360px;
+        margin-top: -50px;
         position: absolute;
         z-index: 10;
     
@@ -211,9 +211,9 @@
         align-items: center;
         justify-content: space-between;
         position: absolute; 
-        bottom: -350px;  
+        bottom: -290px;  
         z-index: 10;
-        margin-left: 720px;
+        margin-left: 730px;
         color: #CCAC73;
         font-size: 11px;
         font-family: 'Mulish', sans-serif;
@@ -227,9 +227,9 @@
         align-items: center;
         justify-content: space-between;
         position: absolute; 
-        bottom: -360px;  
+        bottom: -300px;  
         z-index: 10;
-        margin-left: 720px;
+        margin-left: 730px;
         color: #CCAC73;
         font-size: 11px;
         font-family: 'Mulish', sans-serif;
@@ -244,9 +244,9 @@
         align-items: center;
         justify-content: space-between;
         position: absolute; 
-        bottom: -350px;  
+        bottom: -290px;  
         z-index: 10;
-        margin-left: 460px;
+        margin-left: 410px;
         color: #CCAC73;
         font-size: 11px;
         font-family: 'Mulish', sans-serif;
@@ -260,9 +260,9 @@
         align-items: center;
         justify-content: space-between;
         position: absolute; 
-        bottom: -360px;  
+        bottom: -300px;  
         z-index: 10;
-        margin-left: 460px;
+        margin-left: 410px;
         color: #CCAC73;
         font-size: 11px;
         font-family: 'Mulish', sans-serif

@@ -14,7 +14,7 @@ footer {
 footer p{
     margin: auto;
     font-weight: bold;
-    color:black ;
+    color: white ;
     text-decoration: underline;
     }
 
@@ -27,7 +27,7 @@ footer p{
         align-items: center;
         justify-content: space-between;
         position: absolute; 
-        margin-top: 3000px;
+        margin-top: 2900px;
         left: 0; 
         z-index: 10;
     } 
@@ -35,7 +35,7 @@ footer p{
     footer p{
         margin: auto;
         font-weight: bold;
-        color:black ;
+        color:white ;
         text-decoration: underline;
         } 
 }
@@ -57,7 +57,7 @@ footer p{
     footer p{
         margin: auto;
         font-weight: bold;
-        color:black ;
+        color:white ;
         text-decoration: underline;
         } 
 
