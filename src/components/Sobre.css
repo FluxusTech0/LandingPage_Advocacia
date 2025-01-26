@@ -113,7 +113,7 @@
             position: relative;
             top: 60px;
             z-index: -1;
-            left: 30px;
+            left: 10px;
           }
         
         
@@ -160,25 +160,25 @@
                 height: 210px;
                 left: 30px;
                 margin-top: -680px;
-                margin-left: 110px;
+                margin-left: 70px;
                 z-index: 1;
             
         }
         
         .SobreNos {
             color: #CCAC73;
-            margin-left: 200px;
+            margin-left: 163px;
             font-size: 17px;
             margin-top: 400px;
         }
         
         .Infos {
             color: whitesmoke;
-            margin-left: 80px;
+            margin-left: 40px;
             font-size: 20px;
             font-family: 'Mulish', sans-serif;
             font-weight:bolder;
-        
+            width: 400px;
         
         }
         
@@ -192,7 +192,7 @@
             position: absolute;
             bottom: 0;
             left: 970px;
-            margin-left: -780px;
+            margin-left: -810px;
             top: 500px;
             z-index: -1; 
             
