@@ -99,8 +99,8 @@
         background-color: #350000; /* Altera a cor quando o scroll acontece */
         padding: 10px;
         z-index: 10000; 
-        margin-top: 0px;
-        height: 10px;
+        margin-top: -80px;
+        height: 150px;
       }
 
       .navbar.scrolled:after {
@@ -108,13 +108,13 @@
         display: block;
         height: 1px;
         width: 86%;
-        background-color: rgba(255, 255, 255, 0.5); /* Mantém a mesma cor */
+        background-color: bl(255, 255, 255, 0.5); /* Mantém a mesma cor */
         position: absolute;
         bottom: 0;
         left: 0;
         margin-left: 35px;
         z-index: -1; 
-        margin-top: -60px;
+        margin-top: -1px;
       }
       
     
