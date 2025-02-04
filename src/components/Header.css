@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     padding: 0px 10px;
-    padding-left: 620px;
+    padding-left: 590px;
   }
 
   .topicos2 {
@@ -40,7 +40,7 @@
     content: "";
     display: block;
     height: 1px;
-    width: 40%;
+    width: 42%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     bottom: 0;

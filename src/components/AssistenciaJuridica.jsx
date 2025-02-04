@@ -31,7 +31,7 @@ function AssistenciaJuridica() {
 
   return (
     <>
-      <div className="paginaAssistencia" id="section2">
+      <div className="paginaAssistencia" id="section3">
         <p className="textopequenoAssistencia">
           Como Podemos Ajudar
         </p>
