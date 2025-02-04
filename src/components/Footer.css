@@ -1,12 +1,12 @@
 footer {
-    font-size: 25px;
+    font-size: 23px;
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
-    margin-top: 3900px;
+    margin-top: 3990px;
     left: 0; 
     z-index: 10;
 } 

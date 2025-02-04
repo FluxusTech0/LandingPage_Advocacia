@@ -17,7 +17,7 @@ function Contato() {
 
   return (
     <>
-      <div className="paginaContato" id="section3">
+      <div className="paginaContato" id="section4">
         <div className="panfleto">
           <p className="Letraprincipal">Informações de contato</p>
           <p className="Letramenor">

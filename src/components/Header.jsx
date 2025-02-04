@@ -53,13 +53,20 @@ function Header() {
           <Nav.Item className="topicos2">
             <Nav.Link eventKey="link-2">
               <Link to="section2" smooth={true} duration={500}>
-                ASSISTÊNCIA JURÍDICA
+                EQUIPE
               </Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item className="topicos2">
             <Nav.Link eventKey="link-3">
               <Link to="section3" smooth={true} duration={500}>
+              ASSISTÊNCIA JURÍDICA
+              </Link>
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item className="topicos2">
+            <Nav.Link eventKey="link-4">
+              <Link to="section4" smooth={true} duration={500}>
                 CONTATO
               </Link>
             </Nav.Link>

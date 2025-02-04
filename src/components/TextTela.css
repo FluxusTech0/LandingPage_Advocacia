@@ -127,6 +127,38 @@
 
 }
 
+.comic-button2 {
+    display: inline-block;
+    padding: 5px 45px;
+    font-size: 17px;
+    height: 65px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+      color: #fff;
+      background-color: #690101;
+      border: 2px solid #000;
+      border-radius: 10px;
+      box-shadow: 5px 5px 0px #000;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      margin-top: 650px;
+      margin-left: 400px;
+    }
+    
+    .comic-button2:hover {
+      background-color: #fff;
+      color: #690101;
+      border: 2px solid #690101;
+      box-shadow: 5px 5px 0px #690101;
+    }
+    
+    .comic-button2:active {
+      background-color: #fcf414;
+      box-shadow: none;
+      transform: translateY(4px);
+    }
+
 @media screen and (max-width: 680px) {
     .section0{
         display: flex;
