@@ -1,6 +1,6 @@
 import React from 'react';
 import './Preloader.css'; // CSS opcional para estilização
-import logoloading from '../assets/img/logoouro.png'
+import logoloading from '../assets/img/DESTAQUE.png'
 
 const Preloader = () => {
   return (

@@ -13,7 +13,7 @@ import Contato from "./components/Contato";
 import PaginaFinal from "./components/PaginaFinal";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Preloader from "./components/Preloader"; // Import do Preloader 
+import Preloader from "./components/PreLoader"; // Import do Preloader 
 import ChatbotTeste from "./components/ChatCustom";
 import Equipe from "./components/Equipe";
 

@@ -15,7 +15,7 @@
     background-color: #CCAC73 ;
     width: 450px;
     height: 510px;
-    border: 4px solid black;
+    
 }
 
 .ab {
@@ -28,14 +28,21 @@
     font-weight: bold;
     color: white;
     margin-left: 180px;
-    bottom: 100px;
+    
+}
+
+.umteste {
+   margin-top: 80px;
+   margin-left: 180px;
+   color: white;
+   font-size: 20px;
 }
 
 .DescricaoEquipe {
     color: white;
     width: 350px;
     margin-left: 50px;
-    margin-top: 220px;
+    margin-top: 100px;
 }
 
 .textoGrandeEquipe {
