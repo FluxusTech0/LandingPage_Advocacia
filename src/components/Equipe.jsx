@@ -18,7 +18,7 @@ function Equipe() {
         <div className="slider-container2">
           <Slider {...settings}>
             <div>
-              <img src={fotoequipe} alt="" />
+              <img className="image-equipe" src={fotoequipe} alt="" />
               <div className="ab">
                 <div className="banner">
                   <p className="NomeEquipe">.</p>

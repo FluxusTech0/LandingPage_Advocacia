@@ -68,4 +68,83 @@
 
 }
 
+@media (max-width: 480px) {
+    .paginaEquipe {
+        margin-top: 1100px;
+        position: absolute;
+        height: 100vh; /* A página vai ocupar 100% da altura da tela */
+        
+    }
+    
+    .slider-container2 {
+        margin-top: -700px;
+        margin-left: 45px;
+        width: 390px;
+       
+    }
+
+    .image-equipe {
+        width: 200px;
+        height: 360px;
+    }
+    
+    .banner {
+        background-color: #CCAC73 ;
+        width: 430px;
+        height: 360px;
+        
+    }
+    
+    .ab {
+     margin-left: 510px ;
+     margin-top: -510px; 
+    }
+    
+    .NomeEquipe {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin-left: 135px;
+        
+    }
+    
+    .umteste {
+       margin-top: 80px;
+       margin-left: 180px;
+       color: white;
+       font-size: 20px;
+    }
+    
+    .DescricaoEquipe {
+        color: white;
+        width: 200px;
+        margin-left: 86px;
+        margin-top: 100px;
+        font-size: 12px;
+    }
+    
+    .textoGrandeEquipe {
+        color: white;
+        margin-left: 770px;
+        font-size: 30px;
+        font-weight:bolder;
+        margin-top: -50px; 
+    }
+    
+    .textoGrandeEquipe::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 5%;
+        background-color: #CCAC73;
+        position: absolute;
+        bottom: 0;
+        left: 970px;
+        margin-left: -80px;
+        top: 20px;
+        z-index: -1; 
+    
+    }
+}
+
 
