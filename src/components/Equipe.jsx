@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "./Equipe.css";
 import fotoequipe from "../assets/img/fazendo.jpg";
+import EduardaMery from "../assets/img/EduardaMery(frente).jpeg";
 
 function Equipe() {
   const settings = {
@@ -18,7 +19,7 @@ function Equipe() {
         <div className="slider-container2">
           <Slider {...settings}>
             <div>
-              <img className="image-equipe" src={fotoequipe} alt="" />
+              <img className="image-equipe" src={EduardaMery} alt="" />
               <div className="ab">
                 <div className="banner">
                   <p className="NomeEquipe">.</p>
