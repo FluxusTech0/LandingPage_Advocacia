@@ -2,14 +2,14 @@
     color: #CCAC73;
     margin-left: 150px;
     position: absolute;
-    top: 150px; /* Altere a posição como necessário */
+    top: 110px; /* Altere a posição como necessário */
 
 }
 
 
 .textoTituloGrande{
     color: #CCAC73;
-    margin-top: 159px;
+    margin-top: 130px;
     position: absolute;
     margin-left: 150px;
     font-size: 450%;
@@ -24,12 +24,13 @@
 .textoTextoPequeno{
     color: #CCAC73;
     margin-left: 150px;
-    margin-top: 370px;
+    margin-top: 340px;
     z-index: 9;
-    width: 500px; /* Defina a largura do contêiner */
+    width: 600px; /* Defina a largura do contêiner */
     word-wrap: break-word; /* Quebra palavras longas se não couber */
     overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
     position: absolute;
+    font-size: 14px;
 }
 
 .slide-container{
@@ -43,9 +44,9 @@
 }
 
 .imageAdvogado{
-    width: 600px;
+    width: 500px;
     height: 750px;
-    left: 700px;
+    left: 900px;
     margin-top: -55px;
     position: absolute;
     z-index: 10;
@@ -71,7 +72,7 @@
     position: absolute; 
     bottom: -700px;  
     z-index: 10;
-    margin-left: 880px;
+    margin-left: 930px;
     color: #CCAC73;
     font-size: 28px;
     font-family: 'Mulish', sans-serif;
@@ -87,7 +88,7 @@
     position: absolute; 
     bottom: -730px;  
     z-index: 10;
-    margin-left: 920px;
+    margin-left: 980px;
     color: #CCAC73;
     font-size: 23px;
     font-family: 'Mulish', sans-serif;
@@ -104,7 +105,7 @@
     position: absolute; 
     bottom: -700px;  
     z-index: 10;
-    margin-left: 2350px;
+    margin-left: 1200px;
     color: #CCAC73;
     font-size: 28px;
     font-family: 'Mulish', sans-serif;
@@ -120,7 +121,7 @@
     position: absolute; 
     bottom: -730px;  
     z-index: 10;
-    margin-left: 2350px;
+    margin-left: 1220px;
     color: #CCAC73;
     font-size: 23px;
     font-family: 'Mulish', sans-serif

@@ -50,11 +50,20 @@
 
 .ImagemSobre {
         width: 500px;
-        height: 400px;
-        left: 1050px;
-        margin-top: -150px;
+        height: 480px;
+        left: 930px;
+        margin-top: -180px;
         position: absolute;
     
+}
+
+.ImagemSobre2 {
+    width: 380px;
+    height: 450px;
+    left: 1400px;
+    margin-top: -150px;
+    position: absolute;
+
 }
 
 .SobreNos {

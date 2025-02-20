@@ -1,5 +1,5 @@
 import { useSpring, animated } from "@react-spring/web";
-import LogoDourada from "../assets/img/Advogadohomem.png";
+import LogoDourada from "../assets/img/Advogadasjuntas.png";
 import ImagemMulher from "../assets/img/Advogadomulher.png";
 import "./TextTela.css";
 
@@ -28,15 +28,24 @@ const TextTelaInicial = () => {
             <p className="textoRapido">Texto Rápido</p>
             <p className="textoTituloGrande">Texto Titulo Grande</p>
             <p className="textoTextoPequeno">
-              Um dos principais motivos para a preservação ambiental é a
-              biodiversidade. A diversidade biológica, que abrange todas as
-              formas de vida na Terra, desempenha um papel vital na manutenção
-              dos ecossistemas. Cada espécie, por menor que seja, contribui para
-              o equilíbrio ecológico. A extinção de uma única espécie pode
-              desencadear uma série de reações em cadeia, afetando outras
-              espécies e, eventualmente, os seres humanos. Portanto, proteger a
-              biodiversidade é fundamental não apenas para a sobrevivência das
-              espécies, mas também para a nossa própria sobrevivência.
+              Bem-vindo ao Torres&D'emery, um escritório de advocacia dedicado a
+              oferecer soluções jurídicas estratégicas e eficientes. Atuamos com
+              ética, transparência e excelência, sempre buscando a melhor defesa
+              dos interesses de nossos clientes. Nosso time é composto por
+              profissionais altamente qualificados e especializados em diversas
+              áreas do Direito, proporcionando um atendimento personalizado e
+              focado na resolução ágil e eficaz de demandas jurídicas. Não adie
+              a solução dos seus problemas. Estamos prontos para te ajudar. Por
+              que os clientes nos escolhem? No Torres&D'emery, acreditamos que
+              cada caso é único. Por isso, adotamos uma abordagem estratégica e
+              personalizada, com total comprometimento com a verdade, a justiça
+              e os interesses de nossos clientes. Seja para prevenir litígios ou
+              atuar em processos administrativos e judiciais, nossa missão é
+              oferecer assessoria jurídica completa e de alto nível, garantindo
+              tranquilidade e segurança para pessoas físicas e jurídicas.
+              Explicamos cada etapa do processo de forma acessível e objetiva,
+              mantendo nossos clientes sempre informados e seguros sobre os
+              próximos passos e possíveis desdobramentos do seu caso.
             </p>
           </animated.p>
 
@@ -52,23 +61,16 @@ const TextTelaInicial = () => {
               </div>
               <div className="nomeoab">OAB/PE 99999</div>
             </div>
-          </animated.p>
-        </div>
-        <div>
-          <animated.p style={props2} className="slide-text">
             <div>
-              <img
-                className="imageAdvogada"
-                src={ImagemMulher}
-                alt="LogoDourada"
-              />
-            </div>
             <div className="nomep2">
               <p>Eduarda Torres</p>
             </div>
             <div className="nomeoab2">OAB/PE 99999</div>
+          
+        </div>
           </animated.p>
         </div>
+        
         <a
           href="https://wa.me/5581971115922?text=Olá!%20Gostaria%20de%20mais%20informações."
           target="_blank"
