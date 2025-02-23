@@ -40,7 +40,7 @@
     content: "";
     display: block;
     height: 1px;
-    width: 42%;
+    width: 46%;
     background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     bottom: 0;
@@ -142,10 +142,10 @@
     
       }
 
-      @media (min-width: 768px) and (max-width: 1200px) {
+      /* @media (min-width: 768px) and (max-width: 1200px) {
         .navbar {
           width: 100%;
-          position: relative; /* Não está fixa no topo, apenas acompanha o site */
+          position: relative; /* Não está fixa no topo, apenas acompanha o site 
           background-color: transparent;
           transition: background-color 0.3s ease, padding 0.3s ease;
           top: -100px;
@@ -177,9 +177,9 @@
       }
       
       .navbar.scrolled {
-          position: fixed; /* Quando rolar, a navbar segue fixada */
+          position: fixed; /* Quando rolar, a navbar segue fixada 
           top: 0;
-          background-color: #350000; /* Altera a cor quando o scroll acontece */
+          background-color: #350000; /* Altera a cor quando o scroll acontece 
           padding: 10px;
           z-index: 10000; 
         }
@@ -206,7 +206,7 @@
               margin-top: 10px;
           }
       
-        }
+        } */
 
         
 
