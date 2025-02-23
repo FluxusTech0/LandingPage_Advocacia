@@ -24,38 +24,29 @@ const TextTelaInicial = () => {
     <>
       <div id="section0">
         <div className="slide-container">
-          <animated.p style={props} className="slide-text">
-            <p className="textoRapido">Texto Rápido</p>
-            <p className="textoTituloGrande">Texto Titulo Grande</p>
+          <animated.p style={props2} className="slide-text">
+            <p className="textoRapido">Bem-vindo ao Torres & D'Emery</p>
+            <p className="textoTituloGrande">Não apenas protegemos seus direitos, 
+              mas oferecemos soluções jurídicas que cuidam do que realmente importa, 
+              com ética e excelência</p>
+            <div className="barraVertical"></div>
             <p className="textoTextoPequeno">
-              Bem-vindo ao Torres&D'emery, um escritório de advocacia dedicado a
-              oferecer soluções jurídicas estratégicas e eficientes. Atuamos com
-              ética, transparência e excelência, sempre buscando a melhor defesa
-              dos interesses de nossos clientes. Nosso time é composto por
-              profissionais altamente qualificados e especializados em diversas
-              áreas do Direito, proporcionando um atendimento personalizado e
-              focado na resolução ágil e eficaz de demandas jurídicas. Não adie
-              a solução dos seus problemas. Estamos prontos para te ajudar. Por
-              que os clientes nos escolhem? No Torres&D'emery, acreditamos que
-              cada caso é único. Por isso, adotamos uma abordagem estratégica e
-              personalizada, com total comprometimento com a verdade, a justiça
-              e os interesses de nossos clientes. Seja para prevenir litígios ou
-              atuar em processos administrativos e judiciais, nossa missão é
-              oferecer assessoria jurídica completa e de alto nível, garantindo
-              tranquilidade e segurança para pessoas físicas e jurídicas.
-              Explicamos cada etapa do processo de forma acessível e objetiva,
-              mantendo nossos clientes sempre informados e seguros sobre os
-              próximos passos e possíveis desdobramentos do seu caso.
+            um escritório de advocacia dedicado a oferecer soluções jurídicas estratégicas e eficientes.
+            Atuamos com ética, transparência e excelência, sempre buscando a melhor defesa dos interesses
+            de nossos clientes.Nosso time é composto por profissionais altamente qualificados e especializados
+            em diversas áreas do Direito, proporcionando um atendimento personalizado e focado na resolução ágil
+            e eficaz de demandas jurídicas.Não adie  a solução dos seus problemas. Estamos prontos para te ajudar.
             </p>
           </animated.p>
 
-          <animated.p style={props2} className="slide-text">
+          <animated.p style={props} className="slide-text">
             <div>
               <img
                 className="imageAdvogado"
                 src={LogoDourada}
                 alt="LogoDourada"
               />
+               {/* <div className="formaQuadradaBorda"></div> */}
               <div className="nomep">
                 <p>Eduarda D'Emery</p>
               </div>

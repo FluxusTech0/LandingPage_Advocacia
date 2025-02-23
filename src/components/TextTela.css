@@ -1,19 +1,24 @@
 .textoRapido{
     color: #CCAC73;
-    margin-left: 150px;
+    margin-left: 610px;
     position: absolute;
-    top: 110px; /* Altere a posição como necessário */
+    top: 40px; /* Altere a posição como necessário */
+    font-size: 20px;
+    width: 500px; /* Defina a largura do contêiner */
+    word-wrap: break-word; /* Quebra palavras longas se não couber */
+    overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+
 
 }
 
 
 .textoTituloGrande{
     color: #CCAC73;
-    margin-top: 130px;
+    margin-top: 100px;
     position: absolute;
-    margin-left: 150px;
-    font-size: 450%;
-    width: 500px; /* Defina a largura do contêiner */
+    margin-left: 610px;
+    font-size: 200%;
+    width: 700px; /* Defina a largura do contêiner  */
     word-wrap: break-word; /* Quebra palavras longas se não couber */
     overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
     z-index: 1;
@@ -23,15 +28,32 @@
 
 .textoTextoPequeno{
     color: #CCAC73;
-    margin-left: 150px;
-    margin-top: 340px;
+    margin-left: 610px;
+    margin-top: 270px;
     z-index: 9;
     width: 600px; /* Defina a largura do contêiner */
     word-wrap: break-word; /* Quebra palavras longas se não couber */
     overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
     position: absolute;
-    font-size: 14px;
+    font-size: 18px;
 }
+
+
+.barraVertical:after {
+    content: "";
+    display: block;
+    height: 640px;
+    width: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    margin-left: 490px;
+    top: -25px;
+    z-index: -1; 
+    
+    }
+
 
 .slide-container{
     color: #CCAC73;
@@ -44,16 +66,16 @@
 }
 
 .imageAdvogado{
-    width: 500px;
+    width: 400px;
     height: 750px;
-    left: 900px;
-    margin-top: -55px;
+    left: 190px;
+    margin-top: -140px;
     position: absolute;
     z-index: 10;
 
 }
 
-.imageAdvogada{
+/* .imageAdvogada{
     width: 600px;
     height: 750px;
     left: 2100px;
@@ -61,34 +83,34 @@
     position: absolute;
     z-index: 10;
 
-}
+} */
 
 .nomep {
     width: 100%;
-    height: 150px;
+    height: 320px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
     bottom: -700px;  
     z-index: 10;
-    margin-left: 930px;
+    margin-left: 210px;
     color: #CCAC73;
-    font-size: 28px;
+    font-size: 22px;
     font-family: 'Mulish', sans-serif;
     font-weight:bolder;
 }
 
 .nomeoab {
     width: 100%;
-    height: 150px;
+    height: 320px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
     bottom: -730px;  
     z-index: 10;
-    margin-left: 980px;
+    margin-left: 210px;
     color: #CCAC73;
     font-size: 23px;
     font-family: 'Mulish', sans-serif;
@@ -98,30 +120,30 @@
 
 .nomep2 {
     width: 100%;
-    height: 150px;
+    height: 320px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
     bottom: -700px;  
     z-index: 10;
-    margin-left: 1200px;
+    margin-left: 420px;
     color: #CCAC73;
-    font-size: 28px;
+    font-size: 23px;
     font-family: 'Mulish', sans-serif;
     font-weight:bolder;
 }
 
 .nomeoab2 {
     width: 100%;
-    height: 150px;
+    height: 320px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: absolute; 
     bottom: -730px;  
     z-index: 10;
-    margin-left: 1220px;
+    margin-left: 420px;
     color: #CCAC73;
     font-size: 23px;
     font-family: 'Mulish', sans-serif
@@ -143,8 +165,8 @@
       box-shadow: 5px 5px 0px #000;
       transition: all 0.3s ease;
       cursor: pointer;
-      margin-top: 650px;
-      margin-left: 400px;
+      margin-top: 530px;
+      margin-left: 850px;
     }
     
     .comic-button2:hover {
@@ -338,12 +360,12 @@
 
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+/* @media (min-width: 768px) and (max-width: 1200px) {
     .textoRapido{
         color: #CCAC73;
         margin-left: 480px;
         position: absolute;
-        top: 10px; /* Altere a posição como necessário */
+        top: 10px; /* Altere a posição como necessário 
         width: 100px;
     }
     
@@ -354,9 +376,9 @@
         position: absolute;
         margin-left: 480px;
         font-size: 220%;
-        width: 300px; /* Defina a largura do contêiner */
-        word-wrap: break-word; /* Quebra palavras longas se não couber */
-        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+        width: 300px; /* Defina a largura do contêiner 
+        word-wrap: break-word; /* Quebra palavras longas se não couber 
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra 
         z-index: 1;
         
     
@@ -367,9 +389,9 @@
         margin-left: 480px;
         margin-top: 150px;
         z-index: 9;
-        width: 280px; /* Defina a largura do contêiner */
-        word-wrap: break-word; /* Quebra palavras longas se não couber */
-        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+        width: 280px; /* Defina a largura do contêiner 
+        word-wrap: break-word; /* Quebra palavras longas se não couber 
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra 
         position: absolute;
         font-size: 11px;
     }
@@ -379,9 +401,9 @@
         margin-left: -230px;
         margin-top: 10px;
         z-index: 2;
-        width: 500px; /* Defina a largura do contêiner */
-        word-wrap: break-word; /* Quebra palavras longas se não couber */
-        overflow-wrap: break-word; /* Versão moderna da quebra de palavra */
+        width: 500px; /* Defina a largura do contêiner 
+        word-wrap: break-word; /* Quebra palavras longas se não couber 
+        overflow-wrap: break-word; /* Versão moderna da quebra de palavra 
     }
     
     .imageAdvogado{
@@ -467,6 +489,6 @@
         font-size: 16px;
         font-family: 'Mulish', sans-serif
     
-    }
-}
+    } 
+}*/
 
